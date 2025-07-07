@@ -1,0 +1,34 @@
+name: snack_track_app
+description: An app that helps to identify harmful ingredients in eatables.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  bloc: ^9.0.0
+  equatable:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_localizations:
+    sdk: flutter
+  profile_data:
+    path: packages/profile_data
+  profile_domain:
+    path: packages/profile_domain
+
+  get_it: ^8.0.3
+  intl: ^0.20.2
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^9.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
