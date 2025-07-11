@@ -25,7 +25,7 @@ class ProfileView extends StatelessWidget {
     context.read<ProfileBloc>().add(const LoadProfile());
     final l10n = context.l10n;
     return Scaffold(
-      appBar: AppBar(title: Text(l10n.counterAppBarTitle)),
+      appBar: AppBar(title: Text(l10n.profileAppBarTitle)),
       body: BlocBuilder<ProfileBloc, ProfileState>(
         builder: (context, state) {
           if (state is ProfileLoading) {
