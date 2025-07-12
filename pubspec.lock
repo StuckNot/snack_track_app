@@ -279,7 +279,7 @@ packages:
     source: hosted
     version: "9.1.1"
   flutter_localizations:
-    dependency: "direct main"
+    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -533,17 +533,10 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.1"
-  profile_data:
+  profile:
     dependency: "direct main"
     description:
-      path: "packages/profile_data"
-      relative: true
-    source: path
-    version: "0.1.0+1"
-  profile_domain:
-    dependency: "direct main"
-    description:
-      path: "packages/profile_domain"
+      path: "packages/profile"
       relative: true
     source: path
     version: "0.1.0+1"

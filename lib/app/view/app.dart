@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:snack_track_app/l10n/l10n.dart';
-import 'package:snack_track_app/profile/profile.dart';
+import 'package:profile/l10n/gen/app_localizations.dart';
+import 'package:profile/profile.dart';
 import 'package:snack_track_app/theme/app_theme.dart';
 
 class App extends StatelessWidget {
