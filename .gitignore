@@ -112,4 +112,4 @@ app.*.map.json
 !.idea/runConfigurations/
 
 # Generated l10n files
-lib/l10n/gen/
+packages/profile/lib/l10n/gen/
