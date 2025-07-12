@@ -1,0 +1,39 @@
+{
+  "@@locale": "ru",
+  "profileAppBarTitle": "Профиль",
+  "@profileAppBarTitle": {
+    "description": "Text shown in the AppBar of the Profile Page"
+  },
+  "profileNameTitle": "Имя",
+  "@profileNameTitle": {
+    "description": "Title of the Name field"
+  },
+  "profileAgeTitle": "Возраст",
+  "@profileAgeTitle": {
+    "description": "Title of the Age field"
+  },
+  "profileDietTitle": "Диета",
+  "@profileDietTitle": {
+    "description": "Title of the Diet field"
+  },
+  "profileGenderTitle": "Пол",
+  "@profileGenderTitle": {
+    "description": "Title of the Gender field"
+  },
+  "profileWeightTitle": "Вес (кг)",
+  "@profileWeightTitle": {
+    "description": "Title of the Weight field"
+  },
+  "profileHeightTitle": "Рост (см)",
+  "@profileHeightTitle": {
+    "description": "Title of the Height field"
+  },
+  "profileLanguageTitle": "Язык",
+  "@profileLanguageTitle": {
+    "description": "Title of the Language field"
+  },
+  "profileNationalityTitle": "Национальность",
+  "@profileNationalityTitle": {
+    "description": "Title of the Nationality field"
+  }
+}
