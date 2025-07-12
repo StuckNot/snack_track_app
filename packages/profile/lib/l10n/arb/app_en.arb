@@ -3,5 +3,38 @@
     "profileAppBarTitle": "Profile",
     "@profileAppBarTitle": {
         "description": "Text shown in the AppBar of the Profile Page"
+    },
+    "profileNameTitle": "Name",
+    "@profileNameTitle": {
+        "description": "Title of the Name field"
+    },
+    "profileAgeTitle": "Age",
+    "@profileAgeTitle": {
+        "description": "Title of the Age field"
+    },
+    "profileDietTitle": "Diet",
+    "@profileDietTitle": {
+        "description": "Title of the Diet field"
+    },
+    "profileGenderTitle": "Gender",
+    "@profileGenderTitle": {
+        "description": "Title of the Gender field"
+    },
+
+    "profileWeightTitle": "Weight (kg)",
+    "@profileWeightTitle": {
+        "description": "Title of the Weight field"
+    },
+    "profileHeightTitle": "Height (cms)",
+    "@profileHeightTitle": {
+        "description": "Title of the Height field"
+    },
+    "profileLanguageTitle": "Language",
+    "@profileLanguageTitle": {
+        "description": "Title of the Language field"
+    },
+    "profileNationalityTitle": "Nationality",
+    "@profileNationalityTitle": {
+        "description": "Title of the Nationality field"
     }
 }

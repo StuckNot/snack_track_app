@@ -4,7 +4,6 @@ import 'package:profile/l10n/l10n.dart';
 import 'package:profile/src/domain/entities/user_profile.dart';
 import 'package:profile/src/presentation/bloc/profile_bloc.dart';
 import 'package:profile/src/presentation/widgets/profile_tile.dart';
-import 'package:profile/src/presentation/widgets/profile_tile.dart';
 
 
 class ProfilePage extends StatelessWidget {
@@ -24,7 +23,7 @@ class ProfileView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    context.read<ProfileBloc>().add(const LoadProfile());
+    context.read<ProfileBloc>().add( LoadProfile(context));
     final l10n = context.l10n;
     return Scaffold(
       appBar: AppBar(title: Text(l10n.profileAppBarTitle
@@ -49,8 +48,8 @@ class ProfileView extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.read<ProfileBloc>().add(
-          const SetProfile(
-            UserProfile(
+           SetProfile(
+            const UserProfile(
               name: 'Sunpreet',
               age: 30,
               gender: 'M',
@@ -61,6 +60,7 @@ class ProfileView extends StatelessWidget {
               heightCm: 172,
               weightKg: 65,
             ),
+            context
           ),
         ),
         child: const Text('Save'),

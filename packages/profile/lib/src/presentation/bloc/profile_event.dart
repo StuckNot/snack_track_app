@@ -8,13 +8,17 @@ abstract class ProfileEvent extends Equatable {
 }
 
 class LoadProfile extends ProfileEvent {
-  const LoadProfile();
+  final BuildContext context;
+  const LoadProfile(this.context);
 }
 
 class SetProfile extends ProfileEvent {
 
-  const SetProfile(this.profile);
+
+  const SetProfile(this.profile, this.context);
   final UserProfile profile;
+  final BuildContext context;
+
 
   @override
   List<Object?> get props => [profile];
