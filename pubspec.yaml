@@ -17,6 +17,8 @@ dependencies:
   get_it: ^8.0.3
   profile:
     path: packages/profile
+  scanner:
+    path: packages/scanner
   intl: ^0.20.2
   bdd_widget_test: ^1.8.2
 

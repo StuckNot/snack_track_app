@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:profile/l10n/gen/app_localizations.dart';
-import 'package:profile/profile.dart';
+import 'package:scanner/scanner.dart';
 import 'package:snack_track_app/theme/app_theme.dart';
 
 class App extends StatelessWidget {
@@ -13,7 +13,7 @@ class App extends StatelessWidget {
       theme: AppTheme.light,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const ProfilePage(),
+      home: const ScannerScreen(),
     );
   }
 }

@@ -564,6 +564,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.0"
+  scanner:
+    dependency: "direct main"
+    description:
+      path: "packages/scanner"
+      relative: true
+    source: path
+    version: "0.1.0+1"
   shared_preferences:
     dependency: transitive
     description:
