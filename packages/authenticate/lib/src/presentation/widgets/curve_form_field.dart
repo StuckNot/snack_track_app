@@ -1,23 +1,27 @@
 import 'package:flutter/material.dart';
 
 
-class CustomTextField extends StatelessWidget {
+class CurveTextField extends StatelessWidget {
   final String label;
   final TextEditingController? controller;
   final String? Function(String?)? validator;
   final int? maxLength;
   final int? maxlines;
-  final Icon? icon;
+  final Widget? preffixicon;
+  final Widget? suffixicon;
+  final bool? obscure;
 
 
-  const CustomTextField({
+  const CurveTextField({
     super.key,
     required this.label,
     required this.controller,
     this.validator,
     this.maxLength,
     this.maxlines,
-    this.icon,
+    this.preffixicon,
+    this.suffixicon,
+    this.obscure,
   });
 
 
@@ -28,22 +32,26 @@ class CustomTextField extends StatelessWidget {
       children: [
         Text(
           label,
-          style:Theme.of(context).textTheme.displaySmall,
+          style:TextStyle(fontSize: 24,color:Colors.grey),
         ),
         const SizedBox(
-          height: 5,
+          height: 10,
         ),
         TextFormField(
           validator: validator,
           controller: controller,
           maxLength: maxLength,
+          obscureText: obscure??false,
           maxLines: maxlines??1,
           decoration: InputDecoration(
               hintText: 'Enter $label',
-              counterText: "",
+              counterText: '',
               border:
-              OutlineInputBorder(borderRadius: BorderRadius.circular(20)),
-              prefixIcon: icon),
+              OutlineInputBorder(borderRadius: BorderRadius.circular(40)),
+              prefixIcon: preffixicon,
+              suffixIcon: suffixicon,
+
+          ),
         ),
       ],
     );
