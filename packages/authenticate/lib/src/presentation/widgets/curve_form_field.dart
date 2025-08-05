@@ -2,25 +2,25 @@ import 'package:flutter/material.dart';
 
 
 class CurveTextField extends StatelessWidget {
-  final String label;
+  final String lebel;
   final TextEditingController? controller;
   final String? Function(String?)? validator;
   final int? maxLength;
-  final int? maxlines;
-  final Widget? preffixicon;
-  final Widget? suffixicon;
+  final int? maxLines;
+  final Widget? preffixIcon;
+  final Widget? suffixIcon;
   final bool? obscure;
 
 
   const CurveTextField({
     super.key,
-    required this.label,
+    required this.lebel,
     required this.controller,
     this.validator,
     this.maxLength,
-    this.maxlines,
-    this.preffixicon,
-    this.suffixicon,
+    this.maxLines,
+    this.preffixIcon,
+    this.suffixIcon,
     this.obscure,
   });
 
@@ -31,7 +31,7 @@ class CurveTextField extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          label,
+          lebel,
           style:TextStyle(fontSize: 24,color:Colors.grey),
         ),
         const SizedBox(
@@ -42,14 +42,14 @@ class CurveTextField extends StatelessWidget {
           controller: controller,
           maxLength: maxLength,
           obscureText: obscure??false,
-          maxLines: maxlines??1,
+          maxLines: maxLines??1,
           decoration: InputDecoration(
-              hintText: 'Enter $label',
+              hintText: 'Enter $lebel',
               counterText: '',
               border:
-              OutlineInputBorder(borderRadius: BorderRadius.circular(40)),
-              prefixIcon: preffixicon,
-              suffixIcon: suffixicon,
+              OutlineInputBorder(borderRadius: BorderRadius.circular(40),),
+              prefixIcon: preffixIcon,
+              suffixIcon: suffixIcon,
 
           ),
         ),

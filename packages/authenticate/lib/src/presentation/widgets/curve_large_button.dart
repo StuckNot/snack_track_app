@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 
 class CurveLageButton extends StatelessWidget {
   final String lebel;
-  final VoidCallback? onpress;
-  final Color? buttoncolor;
-  final Color? textcolor;
+  final VoidCallback? onPressed;
+  final Color? buttonColor;
+  final Color? textColor;
 
   const CurveLageButton(
       {super.key,
         required this.lebel,
-        required this.onpress,
-        this.buttoncolor,
-        this.textcolor,
+        required this.onPressed,
+        this.buttonColor,
+        this.textColor,
   });
 
   @override
@@ -20,16 +20,15 @@ class CurveLageButton extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       height: 80,
       child: ElevatedButton(
-          onPressed:onpress,
+          onPressed:onPressed,
           style: ElevatedButton.styleFrom(
-            backgroundColor: buttoncolor??Colors.black,
-
+            backgroundColor: buttonColor??Colors.black,
           ),
           child: Text(
             lebel,
             style: TextStyle(
                 fontSize: 36,
-              color: textcolor ?? Colors.white,
+              color: textColor ?? Colors.white,
             ),
           )
       ),

@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 class CurveSmallButton extends StatelessWidget {
   final VoidCallback? onPressed;
   final String lebel;
-  final Color? textcolor;
+  final Color? textColor;
   final Image? logo;
   const CurveSmallButton({
     super.key,
     required this.onPressed,
     required this.lebel,
-    this.textcolor,
+    this.textColor,
     this.logo
   });
 
@@ -26,11 +26,11 @@ class CurveSmallButton extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                ?logo!=null?SizedBox(height:16,width:16,child: logo,):null,
+                if (logo != null) SizedBox(height: 16, width: 16, child: logo),
                 Text(
                 lebel,
-                style: TextStyle(fontSize: 20,color: textcolor??Colors.black),
-                        ),
+                style: TextStyle(fontSize: 20,color: textColor??Colors.black),
+                ),
               ],
             ),
           )
