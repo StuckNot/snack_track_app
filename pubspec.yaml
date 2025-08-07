@@ -18,6 +18,8 @@ dependencies:
     path: packages/profile_data
   profile_domain:
     path: packages/profile_domain
+  profile_view:
+    path: packages/profile_view
 
   get_it: ^8.0.3
   intl: ^0.20.2
