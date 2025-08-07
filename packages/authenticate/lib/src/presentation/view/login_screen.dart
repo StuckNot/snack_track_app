@@ -1,9 +1,11 @@
+import 'package:authenticate/l10n/l10n.dart';
 import 'package:authenticate/src/presentation/view/login_view.dart';
 import 'package:flutter/material.dart';
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     return Scaffold(
       body: Stack(
         children: [
@@ -14,8 +16,9 @@ class LoginScreen extends StatelessWidget {
               color: Colors.lightGreen,
             ),
             child: Align(
-              alignment: Alignment(0, -0.75),
-              child: Text('Snack Track',style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold),),
+              alignment: const Alignment(0, -0.75),
+              child: Text(l10n.appTitle,style: const TextStyle(
+                  fontSize: 40,fontWeight: FontWeight.bold),),
             ),
           ),
           Positioned(

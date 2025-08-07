@@ -12,5 +12,35 @@ class AppLocalizationsEs extends AppLocalizations {
   AppLocalizationsEs([String locale = 'es']) : super(locale);
 
   @override
-  String get profileAppBarTitle => 'Profile';
+  String get appTitle => 'Snack Track';
+
+  @override
+  String get loginText => 'Iniciar sesión';
+
+  @override
+  String get password => 'Contraseña';
+
+  @override
+  String get emailOrMobile => 'Correo o teléfono';
+
+  @override
+  String get forgotPassword => '¿Olvidaste tu contraseña?';
+
+  @override
+  String get keepLogin => 'Mantener sesión iniciada';
+
+  @override
+  String get google => 'Google';
+
+  @override
+  String get facebook => 'Facebook';
+
+  @override
+  String get dontHaveAccount => '¿No tienes una cuenta?';
+
+  @override
+  String get signUp => 'Registrarse';
+
+  @override
+  String get orSignUp => 'o Regístrate';
 }

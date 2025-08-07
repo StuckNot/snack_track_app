@@ -97,11 +97,71 @@ abstract class AppLocalizations {
     Locale('es')
   ];
 
-  /// Text shown in the AppBar of the Profile Page
+  /// Title of the app
   ///
   /// In en, this message translates to:
-  /// **'Profile'**
-  String get profileAppBarTitle;
+  /// **'Snack Track'**
+  String get appTitle;
+
+  /// Label for Login button
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get loginText;
+
+  /// Label for Password field
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get password;
+
+  /// Label for email/mobile field
+  ///
+  /// In en, this message translates to:
+  /// **'Email or Mobile'**
+  String get emailOrMobile;
+
+  /// Forgot Password link text
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot Password?'**
+  String get forgotPassword;
+
+  /// Keep me logged in option
+  ///
+  /// In en, this message translates to:
+  /// **'Keep me logged in'**
+  String get keepLogin;
+
+  /// Google login button label
+  ///
+  /// In en, this message translates to:
+  /// **'Google'**
+  String get google;
+
+  /// Facebook login button label
+  ///
+  /// In en, this message translates to:
+  /// **'Facebook'**
+  String get facebook;
+
+  /// Text before Sign up link
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account?'**
+  String get dontHaveAccount;
+
+  /// Sign up link text
+  ///
+  /// In en, this message translates to:
+  /// **'Sign Up'**
+  String get signUp;
+
+  /// Sign up option
+  ///
+  /// In en, this message translates to:
+  /// **'or Sign up'**
+  String get orSignUp;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

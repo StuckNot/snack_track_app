@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 class CurveLageButton extends StatelessWidget {
-  final String lebel;
+  final String label;
   final VoidCallback? onPressed;
   final Color? buttonColor;
   final Color? textColor;
 
   const CurveLageButton(
       {super.key,
-        required this.lebel,
+        required this.label,
         required this.onPressed,
         this.buttonColor,
         this.textColor,
@@ -25,7 +25,7 @@ class CurveLageButton extends StatelessWidget {
             backgroundColor: buttonColor??Colors.black,
           ),
           child: Text(
-            lebel,
+            label,
             style: TextStyle(
                 fontSize: 36,
               color: textColor ?? Colors.white,
