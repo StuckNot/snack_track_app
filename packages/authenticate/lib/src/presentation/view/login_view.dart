@@ -26,7 +26,6 @@ class _LoginViewState extends State<LoginView> {
   @override
   void initState() {
     super.initState();
-     _obscure = ValueNotifier(true);
     emailMobileController = TextEditingController();
     passwdController = TextEditingController();
   }
@@ -39,6 +38,7 @@ class _LoginViewState extends State<LoginView> {
   }
   @override
   Widget build(BuildContext context) {
+    
     final l10n = context.l10n;
     return Padding(
       padding: const EdgeInsets.only(left: 12, right: 12, top: 50),
@@ -49,7 +49,7 @@ class _LoginViewState extends State<LoginView> {
             CurveTextField(
               label: l10n.emailOrMobile,
               controller: emailMobileController,
-        
+
               sufixIcon: const Icon(Icons.email_rounded),
             ),
             const SizedBox(
@@ -70,7 +70,7 @@ class _LoginViewState extends State<LoginView> {
                 );
               },
             ),
-        
+
             const SizedBox(
               height: 40,
             ),
@@ -130,7 +130,7 @@ class _LoginViewState extends State<LoginView> {
             const SizedBox(
               height: 40,
             ),
-        
+
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [

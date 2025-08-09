@@ -22,7 +22,7 @@ class LoginScreen extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 275,
+            top: MediaQuery.of(context).size.height * 0.25,
             left: 0,
             right: 0,
             child: Container(
