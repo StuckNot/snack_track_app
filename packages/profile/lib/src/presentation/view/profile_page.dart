@@ -5,6 +5,7 @@ import 'package:profile/src/domain/entities/user_profile.dart';
 import 'package:profile/src/presentation/bloc/profile_bloc.dart';
 import 'package:profile/src/presentation/widgets/profile_tile.dart';
 
+
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 

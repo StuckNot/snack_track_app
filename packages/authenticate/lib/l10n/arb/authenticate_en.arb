@@ -1,0 +1,59 @@
+{
+    "@@locale": "en",
+
+    "appTitle": "Snack Track",
+    "@appTitle": {
+        "description": "Title of the app"
+    },
+
+    "loginText": "Login",
+    "@loginText": {
+        "description": "Label for Login button"
+    },
+
+    "password": "Password",
+    "@password": {
+        "description": "Label for Password field"
+    },
+
+    "emailOrMobile": "Email or Mobile",
+    "@emailOrMobile": {
+        "description": "Label for email/mobile field"
+    },
+
+    "forgotPassword": "Forgot Password?",
+    "@forgotPassword": {
+        "description": "Forgot Password link text"
+    },
+
+    "keepLogin": "Keep me logged in",
+    "@keepLogin": {
+        "description": "Keep me logged in option"
+    },
+
+    "google": "Google",
+    "@google": {
+        "description": "Google login button label"
+    },
+
+    "facebook": "Facebook",
+    "@facebook": {
+        "description": "Facebook login button label"
+    },
+
+    "dontHaveAccount": "Don't have an account?",
+    "@dontHaveAccount": {
+        "description": "Text before Sign up link"
+    },
+
+    "signUp": "Sign Up",
+    "@signUp": {
+        "description": "Sign up link text"
+    },
+
+    "orSignUp": "or Sign up",
+    "@orSignUp": {
+        "description": "Sign up option"
+    }
+
+}
