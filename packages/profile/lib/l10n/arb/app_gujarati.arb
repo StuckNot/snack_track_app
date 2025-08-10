@@ -1,0 +1,39 @@
+{
+  "@@locale": "gu",
+  "profileAppBarTitle": "પ્રોફાઇલ",
+  "@profileAppBarTitle": {
+    "description": "Text shown in the AppBar of the Profile Page"
+  },
+  "profileNameTitle": "નામ",
+  "@profileNameTitle": {
+    "description": "Title of the Name field"
+  },
+  "profileAgeTitle": "ઉંમર",
+  "@profileAgeTitle": {
+    "description": "Title of the Age field"
+  },
+  "profileDietTitle": "આહાર",
+  "@profileDietTitle": {
+    "description": "Title of the Diet field"
+  },
+  "profileGenderTitle": "લિંગ",
+  "@profileGenderTitle": {
+    "description": "Title of the Gender field"
+  },
+  "profileWeightTitle": "વજન (કિલો)",
+  "@profileWeightTitle": {
+    "description": "Title of the Weight field"
+  },
+  "profileHeightTitle": "ઊંચાઈ (સેમી)",
+  "@profileHeightTitle": {
+    "description": "Title of the Height field"
+  },
+  "profileLanguageTitle": "ભાષા",
+  "@profileLanguageTitle": {
+    "description": "Title of the Language field"
+  },
+  "profileNationalityTitle": "રાષ્ટ્રીયતા",
+  "@profileNationalityTitle": {
+    "description": "Title of the Nationality field"
+  }
+}

@@ -23,22 +23,22 @@ class ProfileView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    context.read<ProfileBloc>().add(const LoadProfile());
+    context.read<ProfileBloc>().add(LoadProfile(context));
     final l10n = context.l10n;
     return Scaffold(
-      appBar: AppBar(title: Text(l10n.profileAppBarTitle
-      )),
+      appBar: AppBar(title: Text(l10n.profileAppBarTitle)),
       body: BlocBuilder<ProfileBloc, ProfileState>(
         builder: (context, state) {
           if (state is ProfileLoading) {
             return const CircularProgressIndicator();
           } else if (state is ProfileLoaded) {
             return ListView.separated(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               itemBuilder: (context, index) => ProfileTile(
                 title: state.profile.keys.elementAt(index),
                 value: state.profile.values.elementAt(index).toString(),
               ),
-              separatorBuilder: (_, _) => const Divider(),
+              separatorBuilder: (_, _) => const SizedBox(height: 12),
               itemCount: state.profile.length,
             );
           } else {
@@ -48,8 +48,8 @@ class ProfileView extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.read<ProfileBloc>().add(
-          const SetProfile(
-            UserProfile(
+          SetProfile(
+            const UserProfile(
               name: 'Sunpreet',
               age: 30,
               gender: 'M',
@@ -60,6 +60,7 @@ class ProfileView extends StatelessWidget {
               heightCm: 172,
               weightKg: 65,
             ),
+            context,
           ),
         ),
         child: const Text('Save'),

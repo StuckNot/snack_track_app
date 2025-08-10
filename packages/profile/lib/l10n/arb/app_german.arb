@@ -1,0 +1,39 @@
+{
+  "@@locale": "de",
+  "profileAppBarTitle": "Profil",
+  "@profileAppBarTitle": {
+    "description": "Text shown in the AppBar of the Profile Page"
+  },
+  "profileNameTitle": "Name",
+  "@profileNameTitle": {
+    "description": "Title of the Name field"
+  },
+  "profileAgeTitle": "Alter",
+  "@profileAgeTitle": {
+    "description": "Title of the Age field"
+  },
+  "profileDietTitle": "Ernährung",
+  "@profileDietTitle": {
+    "description": "Title of the Diet field"
+  },
+  "profileGenderTitle": "Geschlecht",
+  "@profileGenderTitle": {
+    "description": "Title of the Gender field"
+  },
+  "profileWeightTitle": "Gewicht (kg)",
+  "@profileWeightTitle": {
+    "description": "Title of the Weight field"
+  },
+  "profileHeightTitle": "Größe (cm)",
+  "@profileHeightTitle": {
+    "description": "Title of the Height field"
+  },
+  "profileLanguageTitle": "Sprache",
+  "@profileLanguageTitle": {
+    "description": "Title of the Language field"
+  },
+  "profileNationalityTitle": "Nationalität",
+  "@profileNationalityTitle": {
+    "description": "Title of the Nationality field"
+  }
+}
