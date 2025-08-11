@@ -44,10 +44,10 @@ packages:
     dependency: "direct main"
     description:
       name: bdd_widget_test
-      sha256: "2131915d6135683c00339ff813bd88983226032736af29c6245feacb6cec2298"
+      sha256: e99afb33b2d11c6259b302ec649c5291fc526ef1617707948e95ab852c10693b
       url: "https://pub.dev"
     source: hosted
-    version: "1.8.2"
+    version: "1.8.0"
   bloc:
     dependency: "direct main"
     description:
