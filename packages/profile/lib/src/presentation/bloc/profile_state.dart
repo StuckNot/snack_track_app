@@ -12,8 +12,7 @@ class ProfileLoading extends ProfileState {}
 class ProfileLoaded extends ProfileState {
 
   const ProfileLoaded(this.profile);
-  final Map<String, dynamic> profile;
-  // final UserProfile? profile;
+  final UserProfile? profile;
 
 
   @override

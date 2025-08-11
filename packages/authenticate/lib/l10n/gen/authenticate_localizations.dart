@@ -12,10 +12,10 @@ import 'authenticate_localizations_es.dart';
 
 // ignore_for_file: type=lint
 
-/// Callers can lookup localized strings with an instance of AuthenticateLocalizations
-/// returned by `AuthenticateLocalizations.of(context)`.
+/// Callers can lookup localized strings with an instance of AppLocalizations
+/// returned by `AppLocalizations.of(context)`.
 ///
-/// Applications need to include `AuthenticateLocalizations.delegate()` in their app's
+/// Applications need to include `AppLocalizations.delegate()` in their app's
 /// `localizationDelegates` list, and the locales they support in the app's
 /// `supportedLocales` list. For example:
 ///
@@ -23,8 +23,8 @@ import 'authenticate_localizations_es.dart';
 /// import 'gen/authenticate_localizations.dart';
 ///
 /// return MaterialApp(
-///   localizationsDelegates: AuthenticateLocalizations.localizationsDelegates,
-///   supportedLocales: AuthenticateLocalizations.supportedLocales,
+///   localizationsDelegates: AppLocalizations.localizationsDelegates,
+///   supportedLocales: AppLocalizations.supportedLocales,
 ///   home: MyApplicationHome(),
 /// );
 /// ```
@@ -61,18 +61,18 @@ import 'authenticate_localizations_es.dart';
 /// Select and expand the newly-created Localizations item then, for each
 /// locale your application supports, add a new item and select the locale
 /// you wish to add from the pop-up menu in the Value field. This list should
-/// be consistent with the languages listed in the AuthenticateLocalizations.supportedLocales
+/// be consistent with the languages listed in the AppLocalizations.supportedLocales
 /// property.
-abstract class AuthenticateLocalizations {
-  AuthenticateLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+abstract class AppLocalizations {
+  AppLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
-  static AuthenticateLocalizations of(BuildContext context) {
-    return Localizations.of<AuthenticateLocalizations>(context, AuthenticateLocalizations)!;
+  static AppLocalizations of(BuildContext context) {
+    return Localizations.of<AppLocalizations>(context, AppLocalizations)!;
   }
 
-  static const LocalizationsDelegate<AuthenticateLocalizations> delegate = _AuthenticateLocalizationsDelegate();
+  static const LocalizationsDelegate<AppLocalizations> delegate = _AppLocalizationsDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -164,32 +164,32 @@ abstract class AuthenticateLocalizations {
   String get orSignUp;
 }
 
-class _AuthenticateLocalizationsDelegate extends LocalizationsDelegate<AuthenticateLocalizations> {
-  const _AuthenticateLocalizationsDelegate();
+class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
+  const _AppLocalizationsDelegate();
 
   @override
-  Future<AuthenticateLocalizations> load(Locale locale) {
-    return SynchronousFuture<AuthenticateLocalizations>(lookupAuthenticateLocalizations(locale));
+  Future<AppLocalizations> load(Locale locale) {
+    return SynchronousFuture<AppLocalizations>(lookupAppLocalizations(locale));
   }
 
   @override
   bool isSupported(Locale locale) => <String>['en', 'es'].contains(locale.languageCode);
 
   @override
-  bool shouldReload(_AuthenticateLocalizationsDelegate old) => false;
+  bool shouldReload(_AppLocalizationsDelegate old) => false;
 }
 
-AuthenticateLocalizations lookupAuthenticateLocalizations(Locale locale) {
+AppLocalizations lookupAppLocalizations(Locale locale) {
 
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'en': return AuthenticateLocalizationsEn();
-    case 'es': return AuthenticateLocalizationsEs();
+    case 'en': return AppLocalizationsEn();
+    case 'es': return AppLocalizationsEs();
   }
 
   throw FlutterError(
-    'AuthenticateLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
     'an issue with the localizations generation tool. Please file an issue '
     'on GitHub with a reproducible sample app and the gen-l10n configuration '
     'that was used.'

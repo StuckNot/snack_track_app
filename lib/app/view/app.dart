@@ -1,7 +1,6 @@
-import 'package:authenticate/authenticate.dart';
-import 'package:authenticate/l10n/gen/authenticate_localizations.dart';
+// import 'package:authenticate/authenticate.dart';
 import 'package:flutter/material.dart';
-import 'package:profile/l10n/gen/app_localizations.dart';
+import 'package:profile/profile.dart';
 import 'package:snack_track_app/theme/app_theme.dart';
 
 
@@ -13,16 +12,14 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'SnackTrack',
       theme: AppTheme.light,
-      localizationsDelegates: const [
+      localizationsDelegates:  const [
         ...AppLocalizations.localizationsDelegates,
-        ...AuthenticateLocalizations.localizationsDelegates,
       ],
-      supportedLocales: const [
+      supportedLocales:  const [
         ...AppLocalizations.supportedLocales,
-        ...AuthenticateLocalizations.supportedLocales,
       ],
       debugShowCheckedModeBanner: false,
-      home: const LoginScreen(), // this comes from authenticate package
+      home: const ProfilePage(),
     );
 
   }

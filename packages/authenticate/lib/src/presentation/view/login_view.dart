@@ -4,9 +4,6 @@ import 'package:authenticate/src/presentation/widgets/curve_large_button.dart';
 import 'package:authenticate/src/presentation/widgets/curve_small_button.dart';
 import 'package:flutter/material.dart';
 
-
-
-
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
 
