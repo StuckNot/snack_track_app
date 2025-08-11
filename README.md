@@ -175,4 +175,6 @@ Alternatively, run `flutter run` and code generation will take place automatical
 [very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
 [very_good_cli_link]: https://github.com/VeryGoodOpenSource/very_good_cli
 
-very_good create flutter_package scanner --desc "A Flutter module for scanning purpose." -o packages
+
+
+very_good create flutter_package authenticate --desc "A Flutter package for authentication" -o packages

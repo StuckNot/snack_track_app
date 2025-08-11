@@ -1,0 +1,39 @@
+{
+    "@@locale": "pa",
+    "profileAppBarTitle": "ਪ੍ਰੋਫਾਈਲ",
+    "@profileAppBarTitle": {
+        "description": "Text shown in the AppBar of the Profile Page"
+    },
+    "profileNameTitle": "ਨਾਮ",
+    "@profileNameTitle": {
+        "description": "Title of the Name field"
+    },
+    "profileAgeTitle": "ਉਮਰ",
+    "@profileAgeTitle": {
+        "description": "Title of the Age field"
+    },
+    "profileDietTitle": "ਖੁਰਾਕ",
+    "@profileDietTitle": {
+        "description": "Title of the Diet field"
+    },
+    "profileGenderTitle": "ਲਿੰਗ",
+    "@profileGenderTitle": {
+        "description": "Title of the Gender field"
+    },
+    "profileWeightTitle": "ਵਜ਼ਨ (ਕਿਲੋਗ੍ਰਾਮ)",
+    "@profileWeightTitle": {
+        "description": "Title of the Weight field"
+    },
+    "profileHeightTitle": "ਕੱਦ (ਸੈਂਟੀਮੀਟਰ)",
+    "@profileHeightTitle": {
+        "description": "Title of the Height field"
+    },
+    "profileLanguageTitle": "ਭਾਸ਼ਾ",
+    "@profileLanguageTitle": {
+        "description": "Title of the Language field"
+    },
+    "profileNationalityTitle": "ਕੌਮੀਅਤ",
+    "@profileNationalityTitle": {
+        "description": "Title of the Nationality field"
+    }
+}

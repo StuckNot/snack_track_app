@@ -13,8 +13,10 @@ class LoadProfile extends ProfileEvent {
 
 class SetProfile extends ProfileEvent {
 
+
   const SetProfile(this.profile);
   final UserProfile profile;
+
 
   @override
   List<Object?> get props => [profile];

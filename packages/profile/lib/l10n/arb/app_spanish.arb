@@ -1,0 +1,7 @@
+{
+    "@@locale": "es",
+    "profileAppBarTitle": "Perfil",
+    "@profileAppBarTitle": {
+        "description": "Texto que se muestra en la barra de la aplicación de la página de perfil"
+    }
+}

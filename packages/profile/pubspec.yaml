@@ -19,8 +19,15 @@ dependencies:
 
 
 dev_dependencies:
+  bdd_widget_test: 1.8.0
+  build_runner:
+  flutter_test:
+    sdk: flutter
   mocktail: ^1.0.4
-  test: ^1.26.2
   very_good_analysis: ^9.0.0
 flutter:
   generate: true
+
+flutter:
+  generate: true
+  uses-material-design: true

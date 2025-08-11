@@ -4,7 +4,6 @@ import 'package:profile/l10n/l10n.dart';
 import 'package:profile/src/domain/entities/user_profile.dart';
 import 'package:profile/src/presentation/bloc/profile_bloc.dart';
 import 'package:profile/src/presentation/widgets/profile_tile.dart';
-import 'package:profile/src/presentation/widgets/profile_tile.dart';
 
 
 class ProfilePage extends StatelessWidget {
@@ -13,7 +12,9 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => ProfileBloc(),
+      create: (_) {
+        return ProfileBloc()..add(const LoadProfile());
+      },
       child: const ProfileView(),
     );
   }
@@ -24,23 +25,30 @@ class ProfileView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    context.read<ProfileBloc>().add(const LoadProfile());
     final l10n = context.l10n;
     return Scaffold(
-      appBar: AppBar(title: Text(l10n.profileAppBarTitle
-      )),
+      appBar: AppBar(title: Text(l10n.profileAppBarTitle)),
       body: BlocBuilder<ProfileBloc, ProfileState>(
         builder: (context, state) {
           if (state is ProfileLoading) {
             return const CircularProgressIndicator();
           } else if (state is ProfileLoaded) {
+            final data =<String,dynamic>{
+              l10n.profileNameTitle: state.profile?.name??'',
+              l10n.profileAgeTitle: state.profile?.age??'',
+              l10n.profileDietTitle: state.profile?.dietPreference??'',
+              l10n.profileGenderTitle: state.profile?.gender??'',
+              l10n.profileWeightTitle: state.profile?.weightKg??'',
+              l10n.profileHeightTitle: state.profile?.heightCm??'',
+            };
             return ListView.separated(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               itemBuilder: (context, index) => ProfileTile(
-                title: state.profile.keys.elementAt(index),
-                value: state.profile.values.elementAt(index).toString(),
+                title: data.keys.elementAt(index),
+                value: data.values.elementAt(index).toString(),
               ),
-              separatorBuilder: (_, _) => const Divider(),
-              itemCount: state.profile.length,
+              separatorBuilder: (_, _) => const SizedBox(height: 12),
+              itemCount: data.length,
             );
           } else {
             return const Text('Error');

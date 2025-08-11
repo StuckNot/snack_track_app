@@ -1,0 +1,31 @@
+name: authenticate
+description: A Flutter package for authentication
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ^3.32.0
+
+dependencies:
+  bloc: ^9.0.0
+  equatable:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_localizations:
+    sdk: flutter
+  get_it: ^8.0.3
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^9.0.0
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
+
