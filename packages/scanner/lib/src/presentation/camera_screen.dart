@@ -1,6 +1,8 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:scanner/l10n/l10n.dart';
+
 
 class CameraScreen extends StatefulWidget {
   const CameraScreen({super.key});
@@ -23,11 +25,15 @@ class _CameraScreenState extends State<CameraScreen> {
 
   Future<void> initCamera() async {
     cameras = await availableCameras();
+    if (cameras.isEmpty) {
+      debugPrint('~~~Camera is not available~~~');
+      return;
+    }
     cameraController = CameraController(
       cameras[0],
       ResolutionPreset.max,
     );
-    await cameraController?.initialize();
+    await cameraController!.initialize();
     setState(() {
       isCameraInitialised = true;
     });
@@ -36,7 +42,7 @@ class _CameraScreenState extends State<CameraScreen> {
   Future<void> takePicture() async {
     if (cameraController!.value.isInitialized) {
       final picture = await cameraController!.takePicture();
-      print('Picture taken at: ${picture.path}');
+      debugPrint('Picture taken at: ${picture.path}');
     }
   }
 
@@ -49,13 +55,14 @@ class _CameraScreenState extends State<CameraScreen> {
         );
         isFlashOn.value = newState; // Notifies UI
       } catch (e) {
-        print('Flash toggle error: $e');
+        debugPrint('Flash toggle error: $e');
       }
     }
   }
-   Future<XFile?> _pickImageFromGallery() async {
-    final pickedImage =  await ImagePicker().pickImage(
-        source: ImageSource.gallery,
+
+  Future<XFile?> _pickImageFromGallery() async {
+    final pickedImage = await ImagePicker().pickImage(
+      source: ImageSource.gallery,
     );
 
     return pickedImage;
@@ -63,29 +70,30 @@ class _CameraScreenState extends State<CameraScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     return Scaffold(
       extendBody: true,
-      bottomNavigationBar: const BottomAppBar(
+      bottomNavigationBar: BottomAppBar(
         color: Colors.black,
-        shape: CircularNotchedRectangle(),
+        shape: const CircularNotchedRectangle(),
         notchMargin: 30,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             IconButton(
-              onPressed: null,
-              icon: Icon(
+              onPressed: () {},
+              icon: const Icon(
                 Icons.search,
                 color: Colors.white,
                 size: 32,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               width: 26,
             ),
             IconButton(
-              onPressed: null,
-              icon: Icon(
+              onPressed: () {},
+              icon: const Icon(
                 Icons.account_circle_outlined,
                 color: Colors.white,
                 size: 32,
@@ -97,7 +105,7 @@ class _CameraScreenState extends State<CameraScreen> {
       backgroundColor: Colors.transparent,
       body: Stack(
         children: [
-          if (isCameraInitialised)
+          if (isCameraInitialised && cameraController != null)
             SizedBox.expand(
               child: CameraPreview(
                 cameraController!,
@@ -123,11 +131,19 @@ class _CameraScreenState extends State<CameraScreen> {
           Positioned(
             top: 40,
             left: 20,
-              child:
-                  IconButton(onPressed: _pickImageFromGallery, icon: const Icon(Icons.photo,
-                    color: Colors.amber,
-                    size: 30,),),
+            child: IconButton(
+              onPressed: _pickImageFromGallery,
+              icon: const Icon(
+                Icons.photo,
+                color: Colors.amber,
+                size: 30,
+              ),
+            ),
           ),
+          if (isCameraInitialised && cameraController == null)
+            Center(
+              child: Text(l10n.restartTheApp),
+            )
         ],
       ),
       floatingActionButton: FloatingActionButton(

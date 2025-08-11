@@ -1,0 +1,15 @@
+{
+  "@@locale": "en",
+  "getStarted": "Get Started",
+  "@getStarted": {
+    "description": "get started text"
+  },
+  "takeHealthIntoYourOwnHands":"Take Health into Your Own Hands",
+  "@takeHealthIntoYourOwnHands": {
+    "description": "take health into your own hands text"
+  },
+  "restartTheApp":"Restart the app",
+  "@restartTheApp": {
+    "description": "Restart the app"
+  }
+}

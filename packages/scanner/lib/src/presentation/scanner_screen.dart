@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:scanner/src/presentation/camera_screen.dart';
+import 'package:scanner/l10n/l10n.dart';
 
 /// {@template scanner}
 /// A Flutter module for scanning purpose.
@@ -10,6 +11,7 @@ class ScannerScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = context.l10n;
     return Scaffold(
       backgroundColor: Colors.black54,
       floatingActionButton: FloatingActionButton(
@@ -37,16 +39,16 @@ class ScannerScreen extends StatelessWidget {
               color: Colors.white ,
               shape: GetStartedShape(),
             ),
-            child: const Column(
+            child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Get Started',
+                  l10n.getStarted,
                   style: TextStyle(fontSize: 36),
                 ),
                 Text(
-                  'Take Health into Your Own Hands',
-                  style: TextStyle(fontSize: 10),
+                  l10n.takeHealthIntoYourOwnHands,
+                  style: Theme.of(context).textTheme.titleMedium,
                 ),
               ],
             ),

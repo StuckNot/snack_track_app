@@ -31,5 +31,5 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
-    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
 </manifest>
