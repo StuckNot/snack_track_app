@@ -10,16 +10,19 @@ class ForgotPasswordScreen extends StatefulWidget {
 
 class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
   late TextEditingController emailController;
+  late TextEditingController otpController;
 
   @override
   void initState() {
     super.initState();
     emailController = TextEditingController();
+    otpController = TextEditingController();
 
   }
   @override
   void dispose() {
     emailController.dispose();
+    otpController.dispose();
 
     super.dispose();
   }
@@ -56,7 +59,7 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
                   topRight: Radius.circular(30),
                 ),
               ),
-              child:ForgotPasswordView(emailController:emailController,)),
+              child:ForgotPasswordView(emailController:emailController, otpController: otpController,)),
             ),
 
         ],
