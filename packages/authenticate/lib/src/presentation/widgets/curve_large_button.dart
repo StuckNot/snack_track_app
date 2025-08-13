@@ -18,7 +18,7 @@ class CurveLageButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: MediaQuery.of(context).size.width,
-      height: 80,
+      height: 60,
       child: ElevatedButton(
           onPressed:onPressed,
           style: ElevatedButton.styleFrom(
@@ -27,7 +27,7 @@ class CurveLageButton extends StatelessWidget {
           child: Text(
             label,
             style: TextStyle(
-                fontSize: 36,
+                fontSize: 20,
               color: textColor ?? Colors.white,
             ),
           )

@@ -21,7 +21,19 @@ class AuthenticateLocalizationsEs extends AuthenticateLocalizations {
   String get password => 'Contraseña';
 
   @override
-  String get emailOrMobile => 'Correo o teléfono';
+  String get otp => 'OTP';
+
+  @override
+  String get sandOtp => 'sand OTP';
+
+  @override
+  String get verify => 'Verificar';
+
+  @override
+  String get resetPassword => 'Restablecer contraseña';
+
+  @override
+  String get email => 'Email';
 
   @override
   String get forgotPassword => '¿Olvidaste tu contraseña?';

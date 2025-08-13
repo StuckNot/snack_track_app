@@ -1,0 +1,78 @@
+{
+  "@@locale": "bn",
+
+  "appTitle": "স্ন্যাক ট্র্যাক",
+  "@appTitle": {
+    "description": "অ্যাপের শিরোনাম"
+  },
+
+  "loginText": "লগইন",
+  "@loginText": {
+    "description": "লগইন বোতামের লেখা"
+  },
+
+  "password": "পাসওয়ার্ড",
+  "@password": {
+    "description": "পাসওয়ার্ড ঘরের লেবেল"
+  },
+
+  "email": "ইমেইল",
+  "@email": {
+    "description": "ইমেইল ঘরের লেবেল"
+  },
+
+  "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন?",
+  "@forgotPassword": {
+    "description": "পাসওয়ার্ড ভুলে গেলে লিঙ্কের লেখা"
+  },
+
+  "otp": "ওটিপি",
+  "@otp": {
+    "description": "ওয়ান টাইম পাসওয়ার্ড"
+  },
+
+  "sendOtp": "OTP পাঠান",
+  "@sendOtp": {
+    "description": "ওটিপি পাঠানোর জন্য টেক্সট"
+  },
+
+  "verify": "যাচাই করুন",
+  "@verify": {
+    "description": "যাচাই করার জন্য টেক্সট"
+  },
+
+  "resetPassword": "পাসওয়ার্ড রিসেট করুন",
+  "@resetPassword": {
+    "description": "পাসওয়ার্ড রিসেট করার জন্য টেক্সট"
+  },
+
+  "keepLogin": "আমাকে লগইন অবস্থায় রাখুন",
+  "@keepLogin": {
+    "description": "আমাকে লগইন অবস্থায় রাখার অপশন"
+  },
+
+  "google": "গুগল",
+  "@google": {
+    "description": "গুগল লগইন বোতামের লেখা"
+  },
+
+  "facebook": "ফেসবুক",
+  "@facebook": {
+    "description": "ফেসবুক লগইন বোতামের লেখা"
+  },
+
+  "dontHaveAccount": "আপনার কি অ্যাকাউন্ট নেই?",
+  "@dontHaveAccount": {
+    "description": "সাইন আপ লিঙ্কের আগে দেখানো লেখা"
+  },
+
+  "signUp": "সাইন আপ",
+  "@signUp": {
+    "description": "সাইন আপ লিঙ্কের লেখা"
+  },
+
+  "orSignUp": "অথবা সাইন আপ",
+  "@orSignUp": {
+    "description": "সাইন আপ করার বিকল্প"
+  }
+}

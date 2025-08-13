@@ -1,0 +1,48 @@
+{
+  "@@locale": "hi",
+
+  "appTitle": "स्नैक ट्रैक",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "लॉगिन",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "पासवर्ड",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "ओटीपी",
+  "@otp": {"description": "one time password"},
+
+  "sandOtp": "OTP भेजें",
+  "@sandOtp": {"description": "text for sending OTP"},
+
+  "verify": "सत्यापित करें",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "पासवर्ड रीसेट करें",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "ईमेल",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "पासवर्ड भूल गए?",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "मुझे लॉगिन रखें",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "गूगल",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "फेसबुक",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "खाता नहीं है?",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "साइन अप करें",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "या साइन अप करें",
+  "@orSignUp": {"description": "Sign up option"}
+}

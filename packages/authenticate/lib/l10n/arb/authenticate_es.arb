@@ -26,6 +26,26 @@
         "description": "Texto del enlace para recuperar la contraseña"
     },
 
+    "otp": "OTP",
+    "@otp": {
+        "description": "contraseña de un solo uso"
+    },
+
+    "verify": "Verificar",
+    "@verify": {
+        "description": "texto de verificación"
+    },
+
+    "resetPassword": "Restablecer contraseña",
+    "@resetPassword": {
+        "description": "texto para restablecer la contraseña"
+    },
+
+    "sendOtp": "Enviar OTP",
+    "@sendOtp": {
+        "description": "texto para enviar OTP"
+    },
+
     "keepLogin": "Mantener sesión iniciada",
     "@keepLogin": {
         "description": "Opción para mantener la sesión iniciada"

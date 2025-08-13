@@ -7,8 +7,26 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'authenticate_localizations_bn.dart';
+import 'authenticate_localizations_de.dart';
 import 'authenticate_localizations_en.dart';
 import 'authenticate_localizations_es.dart';
+import 'authenticate_localizations_fr.dart';
+import 'authenticate_localizations_gu.dart';
+import 'authenticate_localizations_hi.dart';
+import 'authenticate_localizations_id.dart';
+import 'authenticate_localizations_ja.dart';
+import 'authenticate_localizations_kn.dart';
+import 'authenticate_localizations_ko.dart';
+import 'authenticate_localizations_ml.dart';
+import 'authenticate_localizations_mr.dart';
+import 'authenticate_localizations_pa.dart';
+import 'authenticate_localizations_ru.dart';
+import 'authenticate_localizations_sa.dart';
+import 'authenticate_localizations_ta.dart';
+import 'authenticate_localizations_te.dart';
+import 'authenticate_localizations_ur.dart';
+import 'authenticate_localizations_zh.dart';
 
 // ignore_for_file: type=lint
 
@@ -93,8 +111,26 @@ abstract class AuthenticateLocalizations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
+    Locale('bn'),
+    Locale('de'),
     Locale('en'),
-    Locale('es')
+    Locale('es'),
+    Locale('fr'),
+    Locale('gu'),
+    Locale('hi'),
+    Locale('id'),
+    Locale('ja'),
+    Locale('kn'),
+    Locale('ko'),
+    Locale('ml'),
+    Locale('mr'),
+    Locale('pa'),
+    Locale('ru'),
+    Locale('sa'),
+    Locale('ta'),
+    Locale('te'),
+    Locale('ur'),
+    Locale('zh')
   ];
 
   /// Title of the app
@@ -115,11 +151,35 @@ abstract class AuthenticateLocalizations {
   /// **'Password'**
   String get password;
 
-  /// Label for email/mobile field
+  /// one time password
   ///
   /// In en, this message translates to:
-  /// **'Email or Mobile'**
-  String get emailOrMobile;
+  /// **'OTP'**
+  String get otp;
+
+  /// text for sanding OTP
+  ///
+  /// In en, this message translates to:
+  /// **'sand OTP'**
+  String get sandOtp;
+
+  /// verification text
+  ///
+  /// In en, this message translates to:
+  /// **'Verify'**
+  String get verify;
+
+  /// text for reset password
+  ///
+  /// In en, this message translates to:
+  /// **'reset Password'**
+  String get resetPassword;
+
+  /// Label for email field
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get email;
 
   /// Forgot Password link text
   ///
@@ -173,7 +233,7 @@ class _AuthenticateLocalizationsDelegate extends LocalizationsDelegate<Authentic
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'es'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['bn', 'de', 'en', 'es', 'fr', 'gu', 'hi', 'id', 'ja', 'kn', 'ko', 'ml', 'mr', 'pa', 'ru', 'sa', 'ta', 'te', 'ur', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AuthenticateLocalizationsDelegate old) => false;
@@ -184,8 +244,26 @@ AuthenticateLocalizations lookupAuthenticateLocalizations(Locale locale) {
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'bn': return AuthenticateLocalizationsBn();
+    case 'de': return AuthenticateLocalizationsDe();
     case 'en': return AuthenticateLocalizationsEn();
     case 'es': return AuthenticateLocalizationsEs();
+    case 'fr': return AuthenticateLocalizationsFr();
+    case 'gu': return AuthenticateLocalizationsGu();
+    case 'hi': return AuthenticateLocalizationsHi();
+    case 'id': return AuthenticateLocalizationsId();
+    case 'ja': return AuthenticateLocalizationsJa();
+    case 'kn': return AuthenticateLocalizationsKn();
+    case 'ko': return AuthenticateLocalizationsKo();
+    case 'ml': return AuthenticateLocalizationsMl();
+    case 'mr': return AuthenticateLocalizationsMr();
+    case 'pa': return AuthenticateLocalizationsPa();
+    case 'ru': return AuthenticateLocalizationsRu();
+    case 'sa': return AuthenticateLocalizationsSa();
+    case 'ta': return AuthenticateLocalizationsTa();
+    case 'te': return AuthenticateLocalizationsTe();
+    case 'ur': return AuthenticateLocalizationsUr();
+    case 'zh': return AuthenticateLocalizationsZh();
   }
 
   throw FlutterError(

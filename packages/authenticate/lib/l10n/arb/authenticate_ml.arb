@@ -1,0 +1,78 @@
+{
+  "@@locale": "ml",
+
+  "appTitle": "സ്നാക്ക് ട്രാക്ക്",
+  "@appTitle": {
+    "description": "Title of the app"
+  },
+
+  "loginText": "ലോഗിൻ",
+  "@loginText": {
+    "description": "Label for Login button"
+  },
+
+  "password": "പാസ്‌വേഡ്",
+  "@password": {
+    "description": "Label for Password field"
+  },
+
+  "otp": "OTP",
+  "@otp": {
+    "description": "one time password"
+  },
+
+  "sandOtp": "OTP അയയ്ക്കുക",
+  "@sandOtp": {
+    "description": "text for sending OTP"
+  },
+
+  "verify": "പരിശോധിക്കുക",
+  "@verify": {
+    "description": "verification text"
+  },
+
+  "resetPassword": "പാസ്‌വേഡ് പുനഃസജ്ജീകരിക്കുക",
+  "@resetPassword": {
+    "description": "text for reset password"
+  },
+
+  "email": "ഇമെയിൽ",
+  "@email": {
+    "description": "Label for email field"
+  },
+
+  "forgotPassword": "പാസ്‌വേഡ് മറന്നോ?",
+  "@forgotPassword": {
+    "description": "Forgot Password link text"
+  },
+
+  "keepLogin": "എന്നെ ലോഗിൻ ചെയ്തിരിക്കുന്നവനായി വെയ്ക്കുക",
+  "@keepLogin": {
+    "description": "Keep me logged in option"
+  },
+
+  "google": "ഗൂഗിൾ",
+  "@google": {
+    "description": "Google login button label"
+  },
+
+  "facebook": "ഫേസ്ബുക്ക്",
+  "@facebook": {
+    "description": "Facebook login button label"
+  },
+
+  "dontHaveAccount": "അക്കൗണ്ട് ഇല്ലേ?",
+  "@dontHaveAccount": {
+    "description": "Text before Sign up link"
+  },
+
+  "signUp": "സൈൻ അപ് ചെയ്യുക",
+  "@signUp": {
+    "description": "Sign up link text"
+  },
+
+  "orSignUp": "അഥവാ സൈൻ അപ് ചെയ്യുക",
+  "@orSignUp": {
+    "description": "Sign up option"
+  }
+}

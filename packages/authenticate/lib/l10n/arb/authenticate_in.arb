@@ -1,0 +1,48 @@
+{
+  "@@locale": "id",
+
+  "appTitle": "Snack Track",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "Masuk",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "Kata Sandi",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "OTP",
+  "@otp": {"description": "one time password"},
+
+  "sandOtp": "Kirim OTP",
+  "@sandOtp": {"description": "text for sending OTP"},
+
+  "verify": "Verifikasi",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "Atur Ulang Kata Sandi",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "Email",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "Lupa Kata Sandi?",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "Tetap Masuk",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "Google",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "Facebook",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "Belum punya akun?",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "Daftar",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "atau Daftar",
+  "@orSignUp": {"description": "Sign up option"}
+}

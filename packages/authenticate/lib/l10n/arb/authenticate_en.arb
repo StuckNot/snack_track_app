@@ -16,9 +16,29 @@
         "description": "Label for Password field"
     },
 
-    "emailOrMobile": "Email or Mobile",
-    "@emailOrMobile": {
-        "description": "Label for email/mobile field"
+    "otp": "OTP",
+    "@otp": {
+        "description": "one time password"
+    },
+
+    "sandOtp": "sand OTP",
+    "@sandOtp": {
+        "description": "text for sanding OTP"
+    },
+
+    "verify": "Verify",
+    "@verify": {
+        "description": "verification text"
+    },
+
+    "resetPassword": "reset Password",
+    "@resetPassword": {
+        "description": "text for reset password"
+    },
+
+    "email": "Email",
+    "@email": {
+        "description": "Label for email field"
     },
 
     "forgotPassword": "Forgot Password?",

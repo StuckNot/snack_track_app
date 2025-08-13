@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:profile/l10n/gen/app_localizations.dart';
 import 'package:snack_track_app/theme/app_theme.dart';
 
-
 class App extends StatelessWidget {
   const App({super.key});
 
@@ -15,15 +14,13 @@ class App extends StatelessWidget {
       theme: AppTheme.light,
       localizationsDelegates: const [
         ...AppLocalizations.localizationsDelegates,
-        ...AuthenticateLocalizations.localizationsDelegates,
+        ...AuthenticateLocalizations.localizationsDelegates
       ],
       supportedLocales: const [
         ...AppLocalizations.supportedLocales,
-        ...AuthenticateLocalizations.supportedLocales,
+        ...AuthenticateLocalizations.supportedLocales
       ],
-      debugShowCheckedModeBanner: false,
-      home: const LoginScreen(), // this comes from authenticate package
+      home: const LoginScreen(),
     );
-
   }
 }
