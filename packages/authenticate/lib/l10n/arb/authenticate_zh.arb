@@ -13,8 +13,8 @@
   "otp": "一次性密码",
   "@otp": {"description": "one time password"},
 
-  "sandOtp": "发送 OTP",
-  "@sandOtp": {"description": "text for sending OTP"},
+  "sendOtp": "发送 OTP",
+  "@sendOtp": {"description": "text for sending OTP"},
 
   "verify": "验证",
   "@verify": {"description": "verification text"},

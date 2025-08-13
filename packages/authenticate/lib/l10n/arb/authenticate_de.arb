@@ -13,8 +13,8 @@
   "otp": "OTP",
   "@otp": {"description": "one time password"},
 
-  "sandOtp": "OTP senden",
-  "@sandOtp": {"description": "text for sending OTP"},
+  "sendOtp": "OTP senden",
+  "@sendOtp": {"description": "text for sending OTP"},
 
   "verify": "Überprüfen",
   "@verify": {"description": "verification text"},

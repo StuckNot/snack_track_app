@@ -24,7 +24,7 @@ class AuthenticateLocalizationsEn extends AuthenticateLocalizations {
   String get otp => 'OTP';
 
   @override
-  String get sandOtp => 'sand OTP';
+  String get sendOtp => 'sand OTP';
 
   @override
   String get verify => 'Verify';

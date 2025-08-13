@@ -21,8 +21,8 @@
     "description": "one time password"
   },
 
-  "sandOtp": "OTP पाठवा",
-  "@sandOtp": {
+  "sendOtp": "OTP पाठवा",
+  "@sendOtp": {
     "description": "text for sending OTP"
   },
 

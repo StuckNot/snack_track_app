@@ -19,7 +19,7 @@ class ForgotPasswordView extends StatelessWidget {
           children: [
             CurveTextField(label:l10n.email , controller: emailController),
             SizedBox(height: 40,),
-            CurveLageButton(label: l10n.sandOtp, onPressed: (){
+            CurveLageButton(label: l10n.sendOtp, onPressed: (){
               Navigator.push<void>(
                 context,
                 MaterialPageRoute<void>(

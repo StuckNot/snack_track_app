@@ -24,7 +24,7 @@ class AuthenticateLocalizationsSa extends AuthenticateLocalizations {
   String get otp => 'एकवारं प्रयोगशिल्पक पासवर्ड';
 
   @override
-  String get sandOtp => 'OTP प्रेषयतु';
+  String get sendOtp => 'OTP प्रेषयतु';
 
   @override
   String get verify => 'सत्यापयतु';

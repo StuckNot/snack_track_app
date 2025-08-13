@@ -13,8 +13,8 @@
   "otp": "OTP",
   "@otp": {"description": "one time password"},
 
-  "sandOtp": "Kirim OTP",
-  "@sandOtp": {"description": "text for sending OTP"},
+  "sendOtp": "Kirim OTP",
+  "@sendOtp": {"description": "text for sending OTP"},
 
   "verify": "Verifikasi",
   "@verify": {"description": "verification text"},

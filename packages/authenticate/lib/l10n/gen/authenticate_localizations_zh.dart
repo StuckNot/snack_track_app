@@ -24,7 +24,7 @@ class AuthenticateLocalizationsZh extends AuthenticateLocalizations {
   String get otp => '一次性密码';
 
   @override
-  String get sandOtp => '发送 OTP';
+  String get sendOtp => '发送 OTP';
 
   @override
   String get verify => '验证';

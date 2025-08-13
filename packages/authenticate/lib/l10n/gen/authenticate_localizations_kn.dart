@@ -24,7 +24,7 @@ class AuthenticateLocalizationsKn extends AuthenticateLocalizations {
   String get otp => 'ಓಟಿಪಿ';
 
   @override
-  String get sandOtp => 'OTP ಕಳುಹಿಸಿ';
+  String get sendOtp => 'OTP ಕಳುಹಿಸಿ';
 
   @override
   String get verify => 'ಪರಿಶೀಲಿಸಿ';

@@ -13,8 +13,8 @@
   "otp": "એકવાર ઉપયોગ માટેનો પાસવર્ડ",
   "@otp": {"description": "one time password"},
 
-  "sandOtp": "OTP મોકલો",
-  "@sandOtp": {"description": "text for sending OTP"},
+  "sendOtp": "OTP મોકલો",
+  "@sendOtp": {"description": "text for sending OTP"},
 
   "verify": "પરીક્ષણ કરો",
   "@verify": {"description": "verification text"},

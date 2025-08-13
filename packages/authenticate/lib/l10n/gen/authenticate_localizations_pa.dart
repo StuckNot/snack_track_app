@@ -24,7 +24,7 @@ class AuthenticateLocalizationsPa extends AuthenticateLocalizations {
   String get otp => 'OTP';
 
   @override
-  String get sandOtp => 'OTP ਭੇਜੋ';
+  String get sendOtp => 'OTP ਭੇਜੋ';
 
   @override
   String get verify => 'ਸत्यਾਪਨ ਕਰੋ';

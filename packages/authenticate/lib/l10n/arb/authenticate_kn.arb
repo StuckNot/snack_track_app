@@ -13,8 +13,8 @@
   "otp": "ಓಟಿಪಿ",
   "@otp": {"description": "one time password"},
 
-  "sandOtp": "OTP ಕಳುಹಿಸಿ",
-  "@sandOtp": {"description": "text for sending OTP"},
+  "sendOtp": "OTP ಕಳುಹಿಸಿ",
+  "@sendOtp": {"description": "text for sending OTP"},
 
   "verify": "ಪರಿಶೀಲಿಸಿ",
   "@verify": {"description": "verification text"},

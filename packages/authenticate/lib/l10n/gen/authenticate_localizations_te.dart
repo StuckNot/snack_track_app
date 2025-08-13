@@ -24,7 +24,7 @@ class AuthenticateLocalizationsTe extends AuthenticateLocalizations {
   String get otp => 'ఒకసారిగా ఉపయోగించే పాస్వర్డ్';
 
   @override
-  String get sandOtp => 'OTP పంపండి';
+  String get sendOtp => 'OTP పంపండి';
 
   @override
   String get verify => 'నిర్ధారించండి';

@@ -24,7 +24,7 @@ class AuthenticateLocalizationsBn extends AuthenticateLocalizations {
   String get otp => 'ওটিপি';
 
   @override
-  String get sandOtp => 'sand OTP';
+  String get sendOtp => 'OTP পাঠান';
 
   @override
   String get verify => 'যাচাই করুন';

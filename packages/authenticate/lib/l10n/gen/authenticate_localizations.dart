@@ -161,7 +161,7 @@ abstract class AuthenticateLocalizations {
   ///
   /// In en, this message translates to:
   /// **'sand OTP'**
-  String get sandOtp;
+  String get sendOtp;
 
   /// verification text
   ///

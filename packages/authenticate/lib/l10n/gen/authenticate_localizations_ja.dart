@@ -12,47 +12,47 @@ class AuthenticateLocalizationsJa extends AuthenticateLocalizations {
   AuthenticateLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get appTitle => 'Snack Track';
+  String get appTitle => 'スナックトラック';
 
   @override
-  String get loginText => 'Login';
+  String get loginText => 'ログイン';
 
   @override
-  String get password => 'Password';
+  String get password => 'パスワード';
 
   @override
-  String get otp => 'OTP';
+  String get otp => 'ワンタイムパスワード';
 
   @override
-  String get sandOtp => 'sand OTP';
+  String get sendOtp => 'OTPを送信';
 
   @override
-  String get verify => 'Verify';
+  String get verify => '確認';
 
   @override
-  String get resetPassword => 'reset Password';
+  String get resetPassword => 'パスワードをリセット';
 
   @override
-  String get email => 'Email';
+  String get email => 'メール';
 
   @override
-  String get forgotPassword => 'Forgot Password?';
+  String get forgotPassword => 'パスワードを忘れましたか？';
 
   @override
-  String get keepLogin => 'Keep me logged in';
+  String get keepLogin => 'ログイン状態を保持';
 
   @override
-  String get google => 'Google';
+  String get google => 'グーグル';
 
   @override
-  String get facebook => 'Facebook';
+  String get facebook => 'フェイスブック';
 
   @override
-  String get dontHaveAccount => 'Don\'t have an account?';
+  String get dontHaveAccount => 'アカウントをお持ちでないですか？';
 
   @override
-  String get signUp => 'Sign Up';
+  String get signUp => 'サインアップ';
 
   @override
-  String get orSignUp => 'or Sign up';
+  String get orSignUp => 'またはサインアップ';
 }

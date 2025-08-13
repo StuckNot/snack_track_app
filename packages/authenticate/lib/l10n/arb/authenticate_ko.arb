@@ -13,8 +13,8 @@
   "otp": "일회용 비밀번호",
   "@otp": {"description": "one time password"},
 
-  "sandOtp": "OTP 보내기",
-  "@sandOtp": {"description": "text for sending OTP"},
+  "sendOtp": "OTP 보내기",
+  "@sendOtp": {"description": "text for sending OTP"},
 
   "verify": "확인",
   "@verify": {"description": "verification text"},

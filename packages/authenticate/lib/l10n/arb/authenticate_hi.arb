@@ -13,8 +13,8 @@
   "otp": "ओटीपी",
   "@otp": {"description": "one time password"},
 
-  "sandOtp": "OTP भेजें",
-  "@sandOtp": {"description": "text for sending OTP"},
+  "sendOtp": "OTP भेजें",
+  "@sendOtp": {"description": "text for sending OTP"},
 
   "verify": "सत्यापित करें",
   "@verify": {"description": "verification text"},

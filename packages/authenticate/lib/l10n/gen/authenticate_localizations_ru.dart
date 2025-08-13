@@ -24,7 +24,7 @@ class AuthenticateLocalizationsRu extends AuthenticateLocalizations {
   String get otp => 'Одноразовый пароль';
 
   @override
-  String get sandOtp => 'Отправить OTP';
+  String get sendOtp => 'Отправить OTP';
 
   @override
   String get verify => 'Проверить';

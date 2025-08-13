@@ -1,0 +1,48 @@
+{
+  "@@locale": "ja",
+
+  "appTitle": "スナックトラック",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "ログイン",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "パスワード",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "ワンタイムパスワード",
+  "@otp": {"description": "one time password"},
+
+  "sendOtp": "OTPを送信",
+  "@sendOtp": {"description": "text for sending OTP"},
+
+  "verify": "確認",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "パスワードをリセット",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "メール",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "パスワードを忘れましたか？",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "ログイン状態を保持",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "グーグル",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "フェイスブック",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "アカウントをお持ちでないですか？",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "サインアップ",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "またはサインアップ",
+  "@orSignUp": {"description": "Sign up option"}
+}

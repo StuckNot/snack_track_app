@@ -24,7 +24,7 @@ class AuthenticateLocalizationsKo extends AuthenticateLocalizations {
   String get otp => '일회용 비밀번호';
 
   @override
-  String get sandOtp => 'OTP 보내기';
+  String get sendOtp => 'OTP 보내기';
 
   @override
   String get verify => '확인';

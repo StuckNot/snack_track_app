@@ -24,7 +24,7 @@ class AuthenticateLocalizationsGu extends AuthenticateLocalizations {
   String get otp => 'એકવાર ઉપયોગ માટેનો પાસવર્ડ';
 
   @override
-  String get sandOtp => 'OTP મોકલો';
+  String get sendOtp => 'OTP મોકલો';
 
   @override
   String get verify => 'પરીક્ષણ કરો';

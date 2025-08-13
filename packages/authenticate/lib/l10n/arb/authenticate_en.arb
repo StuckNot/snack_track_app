@@ -21,8 +21,8 @@
         "description": "one time password"
     },
 
-    "sandOtp": "sand OTP",
-    "@sandOtp": {
+    "sendOtp": "sand OTP",
+    "@sendOtp": {
         "description": "text for sanding OTP"
     },
 
