@@ -160,7 +160,7 @@ abstract class AuthenticateLocalizations {
   /// text for sanding OTP
   ///
   /// In en, this message translates to:
-  /// **'sand OTP'**
+  /// **'Send OTP'**
   String get sendOtp;
 
   /// verification text
@@ -172,7 +172,7 @@ abstract class AuthenticateLocalizations {
   /// text for reset password
   ///
   /// In en, this message translates to:
-  /// **'reset Password'**
+  /// **'Reset Password'**
   String get resetPassword;
 
   /// Label for email field

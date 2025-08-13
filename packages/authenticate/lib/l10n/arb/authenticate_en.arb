@@ -21,7 +21,7 @@
         "description": "one time password"
     },
 
-    "sendOtp": "sand OTP",
+    "sendOtp": "Send OTP",
     "@sendOtp": {
         "description": "text for sanding OTP"
     },
@@ -31,7 +31,7 @@
         "description": "verification text"
     },
 
-    "resetPassword": "reset Password",
+    "resetPassword": "Reset Password",
     "@resetPassword": {
         "description": "text for reset password"
     },

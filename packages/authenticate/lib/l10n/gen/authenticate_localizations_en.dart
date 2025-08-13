@@ -24,13 +24,13 @@ class AuthenticateLocalizationsEn extends AuthenticateLocalizations {
   String get otp => 'OTP';
 
   @override
-  String get sendOtp => 'sand OTP';
+  String get sendOtp => 'Send OTP';
 
   @override
   String get verify => 'Verify';
 
   @override
-  String get resetPassword => 'reset Password';
+  String get resetPassword => 'Reset Password';
 
   @override
   String get email => 'Email';
