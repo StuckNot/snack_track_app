@@ -17,13 +17,11 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
     super.initState();
     emailController = TextEditingController();
     otpController = TextEditingController();
-
   }
   @override
   void dispose() {
     emailController.dispose();
     otpController.dispose();
-
     super.dispose();
   }
   @override
@@ -59,7 +57,7 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
                   topRight: Radius.circular(30),
                 ),
               ),
-              child:ForgotPasswordView(emailController:emailController, otpController: otpController,)),
+              child:ForgotPasswordView(emailController:emailController,)),
             ),
 
         ],
