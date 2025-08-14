@@ -9,12 +9,13 @@ environment:
 
 dependencies:
   camera: ^0.10.5+9
-  flutter_localizations:
-    sdk: flutter
-
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.4.0
   image_picker: ^1.1.2
+  mobile_scanner: 7.0.1
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +26,5 @@ dev_dependencies:
 flutter:
   generate: true
   uses-material-design: true
+  assets:
+    - assets/images/

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:scanner/src/presentation/camera_screen.dart';
 import 'package:scanner/l10n/l10n.dart';
+import 'package:scanner/src/presentation/camera_screen.dart';
 
 /// {@template scanner}
 /// A Flutter module for scanning purpose.
@@ -23,8 +23,9 @@ class ScannerScreen extends StatelessWidget {
         },
         backgroundColor: Colors.amber,
         shape: const CircleBorder(),
-        child: const Icon(Icons.arrow_forward,
-        color: Colors.black,
+        child: const Icon(
+          Icons.arrow_forward,
+          color: Colors.black,
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
@@ -36,7 +37,7 @@ class ScannerScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 24),
             height: MediaQuery.of(context).size.height / 2,
             decoration: const ShapeDecoration(
-              color: Colors.white ,
+              color: Colors.white,
               shape: GetStartedShape(),
             ),
             child: Column(
