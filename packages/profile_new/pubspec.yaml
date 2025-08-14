@@ -1,5 +1,5 @@
-name: snack_track_app
-description: An app that helps to identify harmful ingredients in eatables.
+name: profile_new
+description: Package For Profile
 version: 1.0.0+1
 publish_to: none
 
@@ -8,22 +8,12 @@ environment:
 
 dependencies:
   bloc: ^9.0.0
-  equatable:
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
   flutter_localizations:
     sdk: flutter
-
-  get_it: ^8.0.3
-  authenticate:
-    path: packages/authenticate 
-  profile:
-    path: packages/profile
-  profile_new:
-    path: packages/profile_new
   intl: ^0.20.2
-  bdd_widget_test: 1.8.0
 
 dev_dependencies:
   bloc_test: ^10.0.0

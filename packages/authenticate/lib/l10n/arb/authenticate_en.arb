@@ -4,7 +4,11 @@
     "appTitle": "Snack Track",
     "@appTitle": {
         "description": "Title of the app"
+    },abel for Password field"
     },
+
+    "emailOrMobile": "Email or Mobile",
+    "@emailOrMobile": {
 
     "loginText": "Login",
     "@loginText": {
@@ -13,11 +17,7 @@
 
     "password": "Password",
     "@password": {
-        "description": "Label for Password field"
-    },
-
-    "emailOrMobile": "Email or Mobile",
-    "@emailOrMobile": {
+        "description": "L
         "description": "Label for email/mobile field"
     },
 
