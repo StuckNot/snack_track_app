@@ -20,8 +20,6 @@ dependencies:
     path: packages/authenticate 
   profile:
     path: packages/profile
-  profile_new:
-    path: packages/profile_new
   intl: ^0.20.2
   bdd_widget_test: 1.8.0
   melos: ^6.3.3

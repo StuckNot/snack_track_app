@@ -15,13 +15,13 @@ class AuthenticateLocalizationEn extends AuthenticateLocalization {
   String get appTitle => 'Snack Track';
 
   @override
+  String get emailOrMobile => 'Email or Mobile';
+
+  @override
   String get loginText => 'Login';
 
   @override
   String get password => 'Password';
-
-  @override
-  String get emailOrMobile => 'Email or Mobile';
 
   @override
   String get forgotPassword => 'Forgot Password?';
