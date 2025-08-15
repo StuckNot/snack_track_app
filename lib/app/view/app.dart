@@ -1,6 +1,5 @@
-// import 'package:authenticate/authenticate.dart';
+import 'package:authenticate/authenticate.dart';
 import 'package:flutter/material.dart';
-import 'package:profile/profile.dart';
 import 'package:snack_track_app/theme/app_theme.dart';
 
 
@@ -13,14 +12,13 @@ class App extends StatelessWidget {
       title: 'SnackTrack',
       theme: AppTheme.light,
       localizationsDelegates:  const [
-        ...AppLocalizations.localizationsDelegates,
+        ...AuthenticateLocalization.localizationsDelegates,
       ],
       supportedLocales:  const [
-        ...AppLocalizations.supportedLocales,
+        ...AuthenticateLocalization.supportedLocales,
       ],
       debugShowCheckedModeBanner: false,
-      home: const ProfilePage(),
+      home: const LoginScreen(),
     );
-
   }
 }
