@@ -21,6 +21,7 @@ dependencies:
     path: packages/profile
   intl: ^0.20.2
   bdd_widget_test: 1.8.0
+  melos: ^6.3.3
 
 dev_dependencies:
   bloc_test: ^10.0.0
