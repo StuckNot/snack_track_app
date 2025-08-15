@@ -1,3 +1,4 @@
+import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:profile/l10n/l10n.dart';
@@ -5,7 +6,7 @@ import 'package:profile/src/domain/entities/user_profile.dart';
 import 'package:profile/src/presentation/bloc/profile_bloc.dart';
 import 'package:profile/src/presentation/widgets/profile_tile.dart';
 
-
+@RoutePage()
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 

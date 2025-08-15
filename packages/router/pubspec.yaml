@@ -1,5 +1,5 @@
-name: authenticate
-description: A Flutter package for authentication
+name: router
+description: A Flutter package for handling app routing
 version: 0.1.0+1
 publish_to: none
 
@@ -8,16 +8,13 @@ environment:
   flutter: ^3.32.0
 
 dependencies:
+  authenticate:
+    path: ../authenticate
   auto_route: ^10.1.0+1
-  bloc: ^9.0.0
-  equatable:
   flutter:
     sdk: flutter
-  flutter_bloc: ^9.1.1
-  flutter_localizations:
-    sdk: flutter
-  get_it: ^8.0.3
-  shared_preferences: ^2.2.0
+  profile:
+    path: ../profile
 
 dev_dependencies:
   auto_route_generator: ^10.2.3
@@ -26,10 +23,3 @@ dev_dependencies:
     sdk: flutter
   mocktail: ^1.0.4
   very_good_analysis: ^9.0.0
-
-flutter:
-  generate: true
-  uses-material-design: true
-  assets:
-    - assets/images/
-
