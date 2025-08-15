@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:profile/profile.dart';
 import 'package:snack_track_app/theme/app_theme.dart';
 
 
@@ -20,6 +19,5 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const ProfileScreen(),
     );
-
   }
 }
