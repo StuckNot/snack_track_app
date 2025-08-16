@@ -1,6 +1,7 @@
 arb-dir: lib/l10n/arb
 template-arb-file: app_english.arb
 output-localization-file: app_localizations.dart
+output-class: ProfileLocalization
 output-dir: lib/l10n/gen
 nullable-getter: false
 synthetic-package: false
