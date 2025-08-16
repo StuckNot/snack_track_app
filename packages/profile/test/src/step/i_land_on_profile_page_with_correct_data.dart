@@ -5,7 +5,6 @@ import 'package:mocktail/mocktail.dart';
 import 'package:profile/profile.dart';
 import 'package:profile/src/domain/entities/user_profile.dart';
 import 'package:profile/src/domain/use_cases/fetch_user_profile.dart';
-import 'package:profile/src/presentation/view/profile_page_backup.dart';
 
 class MockFetchUserProfile extends Mock implements FetchUserProfile {}
 
@@ -35,7 +34,7 @@ Future<void> iLandOnProfilePageWithCorrectData(WidgetTester tester) async {
       ...ProfileLocalization.supportedLocales,
     ],
     debugShowCheckedModeBanner: false,
-    home: ProfilePage(),
+    home: ProfileScreen(),
   ));
 
 }

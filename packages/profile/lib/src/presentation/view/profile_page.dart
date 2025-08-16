@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:profile/l10n/l10n.dart';
 import 'package:profile/src/domain/entities/user_profile.dart';
 import 'package:profile/src/presentation/bloc/profile_bloc.dart';
 import 'package:profile/src/presentation/widgets/goals.dart';
@@ -16,9 +15,8 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
-    final l10n = context.l10n;
     return Scaffold(
-      appBar: AppBar(title: Text(l10n.profileAppBarTitle)),
+      backgroundColor: Colors.grey.shade200,
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.read<ProfileBloc>().add(
           const SetProfile(
@@ -60,13 +58,53 @@ class _ProfileScreenState extends State<ProfileScreen> {
 class ProfileView extends StatelessWidget {
   final UserProfile? profile;
 
-  const ProfileView({super.key, required this.profile});
+  const ProfileView({required this.profile, super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      children: [Overview(), Goals()],
+    return ListView(
+      children: [
+        ColoredBox(
+          color: Colors.black87,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.arrow_back_rounded,
+                  color: Colors.white,
+                ),
+              ),
+              Text(
+                profile?.name ?? '',
+                style: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.white,
+                ),
+              ),
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.settings,
+                  color: Colors.deepOrangeAccent,
+                ),
+              ),
+            ],
+          ),
+        ),
+        Column(
+          children: [
+            Overview(
+              age: profile?.age ?? 0,
+              weight: profile?.weightKg ?? 0,
+              height: profile?.heightCm ?? 0,
+            ),
+            const Goals(),
+          ],
+        ),
+      ],
     );
   }
 }
-
