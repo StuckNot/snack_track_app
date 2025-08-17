@@ -6,7 +6,6 @@ class AuthPadding{
 
 }
 
-class AuthSizedBox{
-  static const SizedBox height = SizedBox(height: 20);
-  static const SizedBox width = SizedBox(width: 20);
+class AuthSpacing{
+  static const double standard = 20;
 }
