@@ -1,0 +1,61 @@
+{
+  "@@locale": "ru",
+
+  "appTitle": "Снэк Трек",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "Войти",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "Пароль",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "Одноразовый пароль",
+  "@otp": {"description": "one time password"},
+
+  "sendOtp": "Отправить OTP",
+  "@sendOtp": {"description": "text for sending OTP"},
+
+  "verify": "Проверить",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "Сбросить пароль",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "Электронная почта",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "Забыли пароль?",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "Оставаться в системе",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "Гугл",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "Фейсбук",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "Нет аккаунта?",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "Зарегистрироваться",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "Или зарегистрироваться",
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "Введите электронную почту",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "Введите пароль",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "Знай свою еду",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}

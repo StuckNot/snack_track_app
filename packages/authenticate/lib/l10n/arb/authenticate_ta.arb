@@ -1,0 +1,91 @@
+{
+  "@@locale": "ta",
+
+  "appTitle": "ஸ்நாக் ட்ராக்",
+  "@appTitle": {
+    "description": "Title of the app"
+  },
+
+  "loginText": "உள்நுழைய",
+  "@loginText": {
+    "description": "Label for Login button"
+  },
+
+  "password": "கடவுச்சொல்",
+  "@password": {
+    "description": "Label for Password field"
+  },
+
+  "otp": "OTP",
+  "@otp": {
+    "description": "one time password"
+  },
+
+  "sendOtp": "OTP அனுப்பு",
+  "@sendOtp": {
+    "description": "text for sending OTP"
+  },
+
+  "verify": "சரிபார்க்க",
+  "@verify": {
+    "description": "verification text"
+  },
+
+  "resetPassword": "கடவுச்சொல்லை மீட்டமை",
+  "@resetPassword": {
+    "description": "text for reset password"
+  },
+
+  "email": "மின்னஞ்சல்",
+  "@email": {
+    "description": "Label for email field"
+  },
+
+  "forgotPassword": "கடவுச்சொல் மறந்துவிட்டீர்களா?",
+  "@forgotPassword": {
+    "description": "Forgot Password link text"
+  },
+
+  "keepLogin": "நான் உள்நுழைந்திருக்க விரும்புகிறேன்",
+  "@keepLogin": {
+    "description": "Keep me logged in option"
+  },
+
+  "google": "கூகிள்",
+  "@google": {
+    "description": "Google login button label"
+  },
+
+  "facebook": "ஃபேஸ்புக்",
+  "@facebook": {
+    "description": "Facebook login button label"
+  },
+
+  "dontHaveAccount": "கணக்கு இல்லையா?",
+  "@dontHaveAccount": {
+    "description": "Text before Sign up link"
+  },
+
+  "signUp": "பதிவு செய்ய",
+  "@signUp": {
+    "description": "Sign up link text"
+  },
+
+  "orSignUp": "அல்லது பதிவு செய்ய",
+  "@orSignUp": {
+    "description": "Sign up option"
+  },
+  "enterEmail": "மின்னஞ்சலை உள்ளிடவும்",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "கடவுச்சொல்லை உள்ளிடவும்",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "உங்கள் உணவை அறியுங்கள்",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}

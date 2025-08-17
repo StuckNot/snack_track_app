@@ -16,6 +16,7 @@ dependencies:
   flutter_bloc: ^9.1.1
   flutter_localizations:
     sdk: flutter
+  flutter_otp_text_field: ^1.5.1+1
   get_it: ^8.0.3
   shared_preferences: ^2.2.0
 

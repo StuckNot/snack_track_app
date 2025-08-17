@@ -1,0 +1,61 @@
+{
+  "@@locale": "zh",
+
+  "appTitle": "零食追踪",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "登录",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "密码",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "一次性密码",
+  "@otp": {"description": "one time password"},
+
+  "sendOtp": "发送 OTP",
+  "@sendOtp": {"description": "text for sending OTP"},
+
+  "verify": "验证",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "重置密码",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "电子邮件",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "忘记密码？",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "保持登录状态",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "谷歌",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "脸书",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "没有账户？",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "注册",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "或注册",
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "输入电子邮件",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "输入密码",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "了解你的食物",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}
