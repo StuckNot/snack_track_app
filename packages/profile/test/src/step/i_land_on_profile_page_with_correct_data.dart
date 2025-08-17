@@ -28,13 +28,13 @@ Future<void> iLandOnProfilePageWithCorrectData(WidgetTester tester) async {
   await tester.pumpWidget(const MaterialApp(
     title: 'SnackTrack',
     localizationsDelegates:  [
-      ...AppLocalizations.localizationsDelegates,
+      ...ProfileLocalization.localizationsDelegates,
     ],
     supportedLocales:  [
-      ...AppLocalizations.supportedLocales,
+      ...ProfileLocalization.supportedLocales,
     ],
     debugShowCheckedModeBanner: false,
-    home: ProfilePage(),
+    home: ProfileScreen(),
   ));
 
 }

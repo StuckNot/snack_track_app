@@ -15,8 +15,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
-#  flutter_localizations:
-#    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
   get_it: ^8.0.3
   melos: ^6.3.3
   profile:

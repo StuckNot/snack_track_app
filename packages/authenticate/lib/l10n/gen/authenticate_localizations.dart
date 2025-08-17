@@ -103,23 +103,23 @@ abstract class AuthenticateLocalization {
   /// **'Snack Track'**
   String get appTitle;
 
+  /// Label for email/mobile field
+  ///
+  /// In en, this message translates to:
+  /// **'Email or Mobile'**
+  String get emailOrMobile;
+
   /// Label for Login button
   ///
   /// In en, this message translates to:
   /// **'Login'**
   String get loginText;
 
-  /// Label for Password field
+  /// Label for email/mobile field
   ///
   /// In en, this message translates to:
   /// **'Password'**
   String get password;
-
-  /// Label for email/mobile field
-  ///
-  /// In en, this message translates to:
-  /// **'Email or Mobile'**
-  String get emailOrMobile;
 
   /// Forgot Password link text
   ///
