@@ -1,3 +1,4 @@
+import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:profile/src/domain/entities/user_profile.dart';
@@ -5,6 +6,7 @@ import 'package:profile/src/presentation/bloc/profile_bloc.dart';
 import 'package:profile/src/presentation/widgets/goals.dart';
 import 'package:profile/src/presentation/widgets/overview.dart';
 
+@RoutePage()
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
 

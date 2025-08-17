@@ -200,4 +200,6 @@ Alternatively, run `flutter run` and code generation will take place automatical
 
 
 
-very_good create flutter_package authenticate --desc "A Flutter package for authentication" -o packages
+very_good create flutter_package routing --desc "A Flutter package for handling app routing" -o packages
+
+dart run build_runner watch
