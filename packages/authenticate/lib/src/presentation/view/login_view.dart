@@ -1,6 +1,7 @@
 import 'package:authenticate/l10n/l10n.dart';
 import 'package:authenticate/src/domain/entities/login_request.dart';
 import 'package:authenticate/src/presentation/bloc/login_bloc.dart';
+import 'package:authenticate/src/presentation/theme/auth_padding.dart';
 import 'package:authenticate/src/presentation/view/forgot_password/forgot_password_screen.dart';
 import 'package:authenticate/src/presentation/widgets/curve_form_field.dart';
 import 'package:authenticate/src/presentation/widgets/curve_large_button.dart';
@@ -27,7 +28,7 @@ class LoginView extends StatelessWidget {
 
     final l10n = context.l10n;
     return Padding(
-      padding: const EdgeInsets.only(left: 12, right: 12, top: 50),
+      padding: AuthPadding.common,
       child: BlocListener<LoginBloc,LoginStates>(
         listener: (context,state){
           if(state is LoginFailure){
@@ -44,7 +45,7 @@ class LoginView extends StatelessWidget {
               CurveTextField(
                 label: l10n.email,
                 controller: emailController,
-
+                hintText: l10n.enterEmail,
                 sufixIcon: const Icon(Icons.email_rounded),
               ),
               const SizedBox(
@@ -55,6 +56,7 @@ class LoginView extends StatelessWidget {
                 builder: (context, value, child) {
                   return CurveTextField(
                     label: l10n.password,
+                    hintText: l10n.enterEmail,
                     obscure: value,
                     controller: passwdController,
                     sufixIcon: GestureDetector(

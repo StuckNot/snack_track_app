@@ -73,6 +73,20 @@
     "orSignUp": "or Sign up",
     "@orSignUp": {
         "description": "Sign up option"
+    },
+
+    "enterEmail": "Enter email",
+    "@enterEmail": {
+        "description": "Email field hint text"
+    },
+    "enterPassword": "Enter password",
+    "@enterPassword": {
+        "description": "Password field hint text"
+    },
+    "knowYourFood": "Know your food",
+    "@knowYourFood": {
+        "description": "Know your food hint text"
     }
+
 
 }

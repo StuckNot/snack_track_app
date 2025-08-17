@@ -74,5 +74,18 @@
   "orSignUp": "அல்லது பதிவு செய்ய",
   "@orSignUp": {
     "description": "Sign up option"
+  },
+  "enterEmail": "மின்னஞ்சலை உள்ளிடவும்",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "கடவுச்சொல்லை உள்ளிடவும்",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "உங்கள் உணவை அறியுங்கள்",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
   }
+
 }

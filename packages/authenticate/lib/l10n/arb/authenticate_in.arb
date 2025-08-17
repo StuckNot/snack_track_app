@@ -44,5 +44,18 @@
   "@signUp": {"description": "Sign up link text"},
 
   "orSignUp": "atau Daftar",
-  "@orSignUp": {"description": "Sign up option"}
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "Masukkan email",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "Masukkan kata sandi",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "Kenali makananmu",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
 }

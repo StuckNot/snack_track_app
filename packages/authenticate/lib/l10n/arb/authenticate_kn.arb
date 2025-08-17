@@ -44,5 +44,18 @@
   "@signUp": {"description": "Sign up link text"},
 
   "orSignUp": "ಅಥವಾ ಸೈನ್ ಅಪ್ ಮಾಡಿ",
-  "@orSignUp": {"description": "Sign up option"}
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "ಇಮೇಲ್ ನಮೂದಿಸಿ",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "ನಿಮ್ಮ ಆಹಾರವನ್ನು ತಿಳಿಯಿರಿ",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
 }

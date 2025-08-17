@@ -23,6 +23,9 @@ class CurveLageButton extends StatelessWidget {
           onPressed:onPressed,
           style: ElevatedButton.styleFrom(
             backgroundColor: buttonColor??Colors.black,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16)
+            )
           ),
           child: Text(
             label,

@@ -44,5 +44,18 @@
   "@signUp": {"description": "Sign up link text"},
 
   "orSignUp": "또는 가입하기",
-  "@orSignUp": {"description": "Sign up option"}
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "이메일 입력",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "비밀번호 입력",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "당신의 음식을 알아보세요",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
 }

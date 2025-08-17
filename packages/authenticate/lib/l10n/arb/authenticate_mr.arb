@@ -74,5 +74,18 @@
   "orSignUp": "किंवा साइन अप करा",
   "@orSignUp": {
     "description": "Sign up option"
+  },
+  "enterEmail": "ईमेल प्रविष्ट करा",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "पासवर्ड प्रविष्ट करा",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "तुमचे अन्न जाणून घ्या",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
   }
+
 }

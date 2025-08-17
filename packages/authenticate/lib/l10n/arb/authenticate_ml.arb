@@ -74,5 +74,18 @@
   "orSignUp": "അഥവാ സൈൻ അപ് ചെയ്യുക",
   "@orSignUp": {
     "description": "Sign up option"
+  },
+  "enterEmail": "ഇമെയിൽ നൽകുക",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "പാസ്‌വേഡ് നൽകുക",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "നിങ്ങളുടെ ഭക്ഷണം അറിയുക",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
   }
+
 }

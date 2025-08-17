@@ -74,5 +74,18 @@
   "orSignUp": "ਜਾਂ ਸਾਈਨ ਅੱਪ ਕਰੋ",
   "@orSignUp": {
     "description": "Sign up option"
+  },
+  "enterEmail": "ਈਮੇਲ ਦਰਜ ਕਰੋ",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "ਆਪਣਾ ਭੋਜਨ ਜਾਣੋ",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
   }
+
 }

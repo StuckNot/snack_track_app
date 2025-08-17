@@ -74,5 +74,21 @@
   "orSignUp": "অথবা সাইন আপ",
   "@orSignUp": {
     "description": "সাইন আপ করার বিকল্প"
+  },
+
+  "enterEmail": "ইমেল প্রবেশ করুন",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+
+  "enterPassword": "পাসওয়ার্ড প্রবেশ করুন",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+
+  "knowYourFood": "আপনার খাবার জানুন",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
   }
+
 }

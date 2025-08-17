@@ -44,5 +44,18 @@
   "@signUp": {"description": "Sign up link text"},
 
   "orSignUp": "Ou S'inscrire",
-  "@orSignUp": {"description": "Sign up option"}
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "Entrez l'email",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "Entrez le mot de passe",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "Connaissez votre nourriture",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
 }

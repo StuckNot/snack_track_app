@@ -74,5 +74,18 @@
   "orSignUp": "یا سائن اپ کریں",
   "@orSignUp": {
     "description": "Sign up option"
+  },
+  "enterEmail": "ای میل درج کریں",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "پاس ورڈ درج کریں",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "اپنے کھانے کو جانیں",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
   }
+
 }

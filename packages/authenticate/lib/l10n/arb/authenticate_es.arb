@@ -74,5 +74,18 @@
     "orSignUp": "o Regístrate",
     "@orSignUp": {
         "description": "Opción para registrarse"
+    },
+    "enterEmail": "Introducir correo electrónico",
+    "@enterEmail": {
+        "description": "Email field hint text"
+    },
+    "enterPassword": "Introducir la contraseña",
+    "@enterPassword": {
+        "description": "Password field hint text"
+    },
+    "knowYourFood": "Conoce tu comida",
+    "@knowYourFood": {
+        "description": "Know your food hint text"
     }
+
 }

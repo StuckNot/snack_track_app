@@ -44,5 +44,18 @@
   "@signUp": {"description": "Sign up link text"},
 
   "orSignUp": "またはサインアップ",
-  "@orSignUp": {"description": "Sign up option"}
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "メールを入力してください",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "パスワードを入力してください",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "自分の食べ物を知る",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
 }
