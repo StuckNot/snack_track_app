@@ -12,14 +12,13 @@ class App extends StatelessWidget {
       title: 'SnackTrack',
       theme: AppTheme.light,
       localizationsDelegates:  const [
-        ...AppLocalizations.localizationsDelegates,
+        ...ProfileLocalization.localizationsDelegates,
       ],
       supportedLocales:  const [
-        ...AppLocalizations.supportedLocales,
+        ...ProfileLocalization.supportedLocales,
       ],
       debugShowCheckedModeBanner: false,
       home: const ScannerScreen(),
     );
-
   }
 }

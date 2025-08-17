@@ -8,20 +8,20 @@ import 'authenticate_localizations.dart';
 // ignore_for_file: type=lint
 
 /// The translations for Spanish Castilian (`es`).
-class AppLocalizationsEs extends AppLocalizations {
-  AppLocalizationsEs([String locale = 'es']) : super(locale);
+class AuthenticateLocalizationEs extends AuthenticateLocalization {
+  AuthenticateLocalizationEs([String locale = 'es']) : super(locale);
 
   @override
   String get appTitle => 'Snack Track';
+
+  @override
+  String get emailOrMobile => 'Correo o teléfono';
 
   @override
   String get loginText => 'Iniciar sesión';
 
   @override
   String get password => 'Contraseña';
-
-  @override
-  String get emailOrMobile => 'Correo o teléfono';
 
   @override
   String get forgotPassword => '¿Olvidaste tu contraseña?';

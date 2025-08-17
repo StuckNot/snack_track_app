@@ -92,7 +92,9 @@ class _LoginViewState extends State<LoginView> {
             ),
             CurveLageButton(
               label: l10n.loginText,
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/home');
+              },
               buttonColor: Colors.black,
             ),
             const SizedBox(

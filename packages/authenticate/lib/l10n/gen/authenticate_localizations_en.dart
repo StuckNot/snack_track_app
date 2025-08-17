@@ -8,20 +8,20 @@ import 'authenticate_localizations.dart';
 // ignore_for_file: type=lint
 
 /// The translations for English (`en`).
-class AppLocalizationsEn extends AppLocalizations {
-  AppLocalizationsEn([String locale = 'en']) : super(locale);
+class AuthenticateLocalizationEn extends AuthenticateLocalization {
+  AuthenticateLocalizationEn([String locale = 'en']) : super(locale);
 
   @override
   String get appTitle => 'Snack Track';
+
+  @override
+  String get emailOrMobile => 'Email or Mobile';
 
   @override
   String get loginText => 'Login';
 
   @override
   String get password => 'Password';
-
-  @override
-  String get emailOrMobile => 'Email or Mobile';
 
   @override
   String get forgotPassword => 'Forgot Password?';
