@@ -41,11 +41,13 @@ class Overview extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final width = MediaQuery.of(context).size.width;
+    final totalHeight = MediaQuery.of(context).size.height;
     return Stack(
       children: [
         Container(
-          height: MediaQuery.of(context).size.height * .35,
-          width: MediaQuery.of(context).size.width,
+          height: totalHeight * .35,
+          width: width,
           decoration: const ShapeDecoration(
             color: Colors.white,
             shape: ProfileBackgroundShape(),
@@ -53,8 +55,8 @@ class Overview extends StatelessWidget {
           ),
         ),
         Container(
-          height: MediaQuery.of(context).size.height * .25,
-          width: MediaQuery.of(context).size.width,
+          height: totalHeight * .25,
+          width: width,
           decoration: const ShapeDecoration(
             color: Colors.black87,
             shape: ProfileBackgroundShape(),
@@ -63,7 +65,7 @@ class Overview extends StatelessWidget {
         ),
         Padding(
           padding: EdgeInsets.only(
-            top: MediaQuery.of(context).size.height * .08,
+            top: totalHeight * .08,
           ),
           child: Align(
             alignment: Alignment.topCenter,
@@ -73,10 +75,8 @@ class Overview extends StatelessWidget {
             ),
           ),
         ),
-        Positioned(
-          bottom: 0,
-          left: 0,
-          right: 0,
+        Padding(
+          padding: EdgeInsets.only( top: totalHeight * .29,left: 10,right: 10),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.end,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,

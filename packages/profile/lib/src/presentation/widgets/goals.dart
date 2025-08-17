@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Goals extends StatelessWidget {
   const Goals({super.key});
 
-  Widget GoalsCustomContainer(String text, String description) {
+  Widget goalsCustomContainer(String text, String description, Color color) {
     return Container(
       height: 120,
       width: 160,
@@ -18,9 +18,9 @@ class Goals extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Icon(
+            Icon(
               Icons.circle_outlined,
-              color: Colors.blueAccent,
+              color: color,
             ),
             Text(
               text,
@@ -77,20 +77,32 @@ class Goals extends StatelessWidget {
             ),
           ),
           SingleChildScrollView(
-            padding: EdgeInsets.all(8),
+            padding: const EdgeInsets.all(8),
             scrollDirection: Axis.horizontal,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                GoalsCustomContainer('78 Kgs', 'Weight Goals'),
+                goalsCustomContainer(
+                  '78 Kgs',
+                  'Weight Goals',
+                  Colors.blueAccent,
+                ),
                 const SizedBox(
                   width: 8,
                 ),
-                GoalsCustomContainer('10000 Steps', 'Steps Goal'),
+                goalsCustomContainer(
+                  '10000 Steps',
+                  'Steps Goal',
+                  Colors.blueAccent,
+                ),
                 const SizedBox(
                   width: 8,
                 ),
-                GoalsCustomContainer('2000 Calories', 'Calories Goal'),
+                goalsCustomContainer(
+                  '2000 Calories',
+                  'Calories Goal',
+                  Colors.blueAccent,
+                ),
               ],
             ),
           ),
