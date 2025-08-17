@@ -10,7 +10,6 @@ dependencies:
   authenticate:
     path: packages/authenticate
   auto_route: ^10.1.0+1
-  bdd_widget_test: 1.8.0
   bloc: ^9.0.0
   equatable:
   flutter:
