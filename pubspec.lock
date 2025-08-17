@@ -57,7 +57,7 @@ packages:
     source: hosted
     version: "10.1.0+1"
   bdd_widget_test:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: bdd_widget_test
       sha256: e99afb33b2d11c6259b302ec649c5291fc526ef1617707948e95ab852c10693b
@@ -557,7 +557,7 @@ packages:
     source: hosted
     version: "0.2.1+1"
   intl:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: intl
       sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"

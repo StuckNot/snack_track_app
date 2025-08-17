@@ -12,10 +12,10 @@ class App extends StatelessWidget {
       title: 'SnackTrack',
       theme: AppTheme.light,
       localizationsDelegates:  const [
-        ...ProfileLocalization.localizationsDelegates,
+        ...AppLocalizations.localizationsDelegates,
       ],
       supportedLocales:  const [
-        ...ProfileLocalization.supportedLocales,
+        ...AppLocalizations.supportedLocales,
       ],
       debugShowCheckedModeBanner: false,
       home: const ScannerScreen(),
