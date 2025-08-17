@@ -10,6 +10,33 @@ An app that helps to identify harmful ingredients in eatables.
 
 ---
 
+## Monorepo Structure & Package Management 🗂️
+
+This project uses a monorepo structure to organize multiple Flutter packages under the `packages/` directory.
+
+Package management is handled with [Melos](https://melos.invertase.dev).
+
+```yaml
+Analyze all packages:
+  melos run analyze
+
+Run all tests:
+  melos run test
+
+Get dependencies:
+  melos run pub_get
+
+Clean all packages:
+  melos run clean
+```
+
+### Key Packages
+
+- `authenticate`: Authentication utilities.
+- `profile`: User profile features.
+
+---
+
 ## Getting Started 🚀
 
 This project contains 3 flavors:
@@ -105,16 +132,12 @@ Widget build(BuildContext context) {
 
 Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info.plist` to include the new locale.
 
-```xml
-    ...
-
+```
     <key>CFBundleLocalizations</key>
 	<array>
 		<string>en</string>
 		<string>es</string>
 	</array>
-
-    ...
 ```
 
 ### Adding Translations
@@ -177,4 +200,6 @@ Alternatively, run `flutter run` and code generation will take place automatical
 
 
 
-very_good create flutter_package authenticate --desc "A Flutter package for authentication" -o packages
+very_good create flutter_package routing --desc "A Flutter package for handling app routing" -o packages
+
+dart run build_runner watch

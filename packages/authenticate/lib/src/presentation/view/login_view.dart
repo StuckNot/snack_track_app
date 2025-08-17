@@ -22,7 +22,6 @@ class LoginView extends StatelessWidget {
 
   });
   final bool isMinimal;
-
   @override
   Widget build(BuildContext context) {
 

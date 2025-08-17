@@ -1,6 +1,5 @@
 {
     "@@locale": "en",
-
     "appTitle": "Snack Track",
     "@appTitle": {
         "description": "Title of the app"

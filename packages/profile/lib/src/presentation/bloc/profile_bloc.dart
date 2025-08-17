@@ -20,9 +20,8 @@ class ProfileBloc extends Bloc<ProfileEvent, ProfileState> {
   ) async {
     emit(ProfileLoading());
     try {
-      final fetchProfileUseCase = await GetIt.I.get<FetchUserProfile>().call();
-      // final profile = await fetchProfileUseCase();
-      emit(ProfileLoaded(fetchProfileUseCase));
+      final profile = await GetIt.I.get<FetchUserProfile>().call();
+      emit(ProfileLoaded(profile));
     } catch (e) {
       emit(ProfileError(e.toString()));
     }

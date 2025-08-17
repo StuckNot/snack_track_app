@@ -1,0 +1,112 @@
+#name: snack_track_app
+#packages:
+#  - packages/*
+#
+#scripts:
+#  analyze:
+#    run: flutter analyze .
+#    description: Analyze all packages and the app.
+#  test:
+#    run: melos exec -- flutter test
+#    description: Run all tests in packages.
+#  pub_get:
+#    run: melos exec -- flutter pub get
+#    description: Run pub get in all packages.
+#  clean:
+#    run: melos exec -- flutter clean
+#    description: Clean all packages.
+
+# melos.yaml
+# Melos configuration for Snack Track App monorepo
+# This file manages multiple Dart/Flutter packages and automates development workflows across the repository.
+
+# Name of the workspace/monorepo.
+name: snack_track_app
+
+# Which directories contain packages managed by Melos.
+# The wildcard (*) includes all packages under 'packages/'.
+packages:
+  - packages/*
+  # You can add more globs if you nest packages deeper or add more folders.
+
+# Commands automate common/critical repo tasks.
+# 'bootstrap' installs dependencies and links packages.
+command:
+  bootstrap:
+    # Use pubspec_overrides for local dependency management.
+    usePubspecOverrides: true
+    # Disable parallel pub get for stability; recommended for CI.
+    runPubGetInParallel: false
+
+# Custom scripts to automate tasks. You can run via 'melos run <script-name>'
+scripts:
+  analyze:
+    # Analyze all packages and the main app for issues and warnings.
+    run: flutter analyze .
+    description: 'Analyze all packages and the app for code quality.'
+
+  test:
+    # Run all Flutter unit and widget tests (including coverage).
+    run: flutter test --coverage --test-randomize-ordering-seed random
+    description: 'Run all unit and widget tests with randomized ordering and coverage.'
+
+  pub_get:
+    # Fetch all dependencies for every package.
+    run: melos exec -- flutter pub get
+    description: 'Run "flutter pub get" for all packages.'
+
+  clean:
+    # Clean build/artifacts for all packages.
+    run: melos exec -- flutter clean
+    description: 'Clean all packages and apps.'
+
+  build:apk:
+    # Build Android APKs for all apps with an 'android' directory.
+    run: melos exec -- "flutter build apk"
+    description: 'Build Android APKs for all apps.'
+    packageFilters:
+      dirExists: android
+
+  build:web:
+    # Build web output for all apps with a 'web' directory.
+    run: melos exec -- "flutter build web"
+    description: 'Build web outputs for all apps.'
+    packageFilters:
+      dirExists: web
+
+  format:
+    # Format all Dart files in apps and packages.
+    run: melos exec -- "dart format ."
+    description: 'Auto-format Dart files for all packages.'
+
+  lint:all:
+    # Run a comprehensive lint and format check (for CI or local quality checks).
+    run: melos run analyze && melos run format
+    description: 'Run static analysis and formatting for all packages.'
+
+  qualitycheck:
+    # Composite script to ensure repo consistency and reliability.
+    run: |
+      melos run clean &&
+      melos bootstrap &&
+      melos run lint:all &&
+      melos run test
+    description: 'Full local quality check: clean, bootstrap, lint, test.'
+
+# Documentation
+# - 'analyze': Checks for code errors and warnings in all packages/apps.
+# - 'test': Runs all tests with coverage—essential for stable changes.
+# - 'pub_get': Installs dependencies across all packages.
+# - 'clean': Deletes build artifacts to solve caching/build issues.
+# - 'build:apk'/'build:web': Builds distributable outputs for all apps.
+# - 'format': Keeps code style consistent using Dart's formatter.
+# - 'lint:all': Static analysis and formatting, good for pre-commit checks.
+# - 'qualitycheck': Run before publishing/shipping new features for reliability.
+
+# How to use:
+# - Run 'melos bootstrap' after changing dependencies or adding packages.
+# - Run scripts: 'melos run <script-name>' (e.g., melos run test)
+# - Extend or customize this file as your project grows!
+
+# For more, see Melos docs: https://melos.invertase.dev/
+

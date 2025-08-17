@@ -30,10 +30,10 @@ import 'authenticate_localizations_zh.dart';
 
 // ignore_for_file: type=lint
 
-/// Callers can lookup localized strings with an instance of AuthenticateLocalizations
-/// returned by `AuthenticateLocalizations.of(context)`.
+/// Callers can lookup localized strings with an instance of AuthenticateLocalization
+/// returned by `AuthenticateLocalization.of(context)`.
 ///
-/// Applications need to include `AuthenticateLocalizations.delegate()` in their app's
+/// Applications need to include `AuthenticateLocalization.delegate()` in their app's
 /// `localizationDelegates` list, and the locales they support in the app's
 /// `supportedLocales` list. For example:
 ///
@@ -41,8 +41,8 @@ import 'authenticate_localizations_zh.dart';
 /// import 'gen/authenticate_localizations.dart';
 ///
 /// return MaterialApp(
-///   localizationsDelegates: AuthenticateLocalizations.localizationsDelegates,
-///   supportedLocales: AuthenticateLocalizations.supportedLocales,
+///   localizationsDelegates: AuthenticateLocalization.localizationsDelegates,
+///   supportedLocales: AuthenticateLocalization.supportedLocales,
 ///   home: MyApplicationHome(),
 /// );
 /// ```
@@ -79,18 +79,18 @@ import 'authenticate_localizations_zh.dart';
 /// Select and expand the newly-created Localizations item then, for each
 /// locale your application supports, add a new item and select the locale
 /// you wish to add from the pop-up menu in the Value field. This list should
-/// be consistent with the languages listed in the AuthenticateLocalizations.supportedLocales
+/// be consistent with the languages listed in the AuthenticateLocalization.supportedLocales
 /// property.
-abstract class AuthenticateLocalizations {
-  AuthenticateLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+abstract class AuthenticateLocalization {
+  AuthenticateLocalization(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
-  static AuthenticateLocalizations of(BuildContext context) {
-    return Localizations.of<AuthenticateLocalizations>(context, AuthenticateLocalizations)!;
+  static AuthenticateLocalization of(BuildContext context) {
+    return Localizations.of<AuthenticateLocalization>(context, AuthenticateLocalization)!;
   }
 
-  static const LocalizationsDelegate<AuthenticateLocalizations> delegate = _AuthenticateLocalizationsDelegate();
+  static const LocalizationsDelegate<AuthenticateLocalization> delegate = _AuthenticateLocalizationDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -139,13 +139,19 @@ abstract class AuthenticateLocalizations {
   /// **'Snack Track'**
   String get appTitle;
 
+  /// Label for email/mobile field
+  ///
+  /// In en, this message translates to:
+  /// **'Email or Mobile'**
+  String get emailOrMobile;
+
   /// Label for Login button
   ///
   /// In en, this message translates to:
   /// **'Login'**
   String get loginText;
 
-  /// Label for Password field
+  /// Label for email/mobile field
   ///
   /// In en, this message translates to:
   /// **'Password'**
@@ -224,30 +230,30 @@ abstract class AuthenticateLocalizations {
   String get orSignUp;
 }
 
-class _AuthenticateLocalizationsDelegate extends LocalizationsDelegate<AuthenticateLocalizations> {
-  const _AuthenticateLocalizationsDelegate();
+class _AuthenticateLocalizationDelegate extends LocalizationsDelegate<AuthenticateLocalization> {
+  const _AuthenticateLocalizationDelegate();
 
   @override
-  Future<AuthenticateLocalizations> load(Locale locale) {
-    return SynchronousFuture<AuthenticateLocalizations>(lookupAuthenticateLocalizations(locale));
+  Future<AuthenticateLocalization> load(Locale locale) {
+    return SynchronousFuture<AuthenticateLocalization>(lookupAuthenticateLocalization(locale));
   }
 
   @override
   bool isSupported(Locale locale) => <String>['bn', 'de', 'en', 'es', 'fr', 'gu', 'hi', 'id', 'ja', 'kn', 'ko', 'ml', 'mr', 'pa', 'ru', 'sa', 'ta', 'te', 'ur', 'zh'].contains(locale.languageCode);
 
   @override
-  bool shouldReload(_AuthenticateLocalizationsDelegate old) => false;
+  bool shouldReload(_AuthenticateLocalizationDelegate old) => false;
 }
 
-AuthenticateLocalizations lookupAuthenticateLocalizations(Locale locale) {
+AuthenticateLocalization lookupAuthenticateLocalization(Locale locale) {
 
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
     case 'bn': return AuthenticateLocalizationsBn();
     case 'de': return AuthenticateLocalizationsDe();
-    case 'en': return AuthenticateLocalizationsEn();
-    case 'es': return AuthenticateLocalizationsEs();
+    case 'en': return AuthenticateLocalizationEn();
+    case 'es': return AuthenticateLocalizationEs();
     case 'fr': return AuthenticateLocalizationsFr();
     case 'gu': return AuthenticateLocalizationsGu();
     case 'hi': return AuthenticateLocalizationsHi();
@@ -267,7 +273,7 @@ AuthenticateLocalizations lookupAuthenticateLocalizations(Locale locale) {
   }
 
   throw FlutterError(
-    'AuthenticateLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'AuthenticateLocalization.delegate failed to load unsupported locale "$locale". This is likely '
     'an issue with the localizations generation tool. Please file an issue '
     'on GitHub with a reproducible sample app and the gen-l10n configuration '
     'that was used.'
