@@ -5,20 +5,15 @@ class ScaffoldBase extends StatelessWidget {
   const ScaffoldBase({
     required this.child,
     required this.title,
-    this.bottonNav,
     super.key,
   });
   final Widget child;
   final String title;
-  final Widget? bottonNav;
+
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: Padding(
-        padding: const EdgeInsets.all(20),
-        child: bottonNav,
-      ),
       body: Stack(
         children: [
           Container(

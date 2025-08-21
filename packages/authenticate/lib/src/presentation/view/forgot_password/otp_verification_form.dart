@@ -34,7 +34,6 @@ class OtpVerificationForm{
                     ),
                     const SizedBox(height: 10),
                     OtpTextField(
-                      numberOfFields: 6,
                       enabledBorderColor: Colors.lightGreen.shade200,
                       showFieldAsBox: true,
                       focusedBorderColor: Colors.green,
@@ -42,7 +41,7 @@ class OtpVerificationForm{
                         otpCode=verificationCode;
                       },
                     ),
-                    const SizedBox(height: 40),
+                    const SizedBox(height: 20),
                     CurveLageButton(
                       label: l10n.verify,
                       onPressed: () {
