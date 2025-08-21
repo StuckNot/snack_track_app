@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:profile/src/presentation/widgets/add_goals.dart';
 
 class Goals extends StatelessWidget {
   const Goals({super.key});
@@ -48,12 +49,12 @@ class Goals extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Padding(
-            padding: EdgeInsets.all(8),
+          Padding(
+            padding: const EdgeInsets.all(8),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
+                const Text(
                   'Goals',
                   style: TextStyle(
                     fontSize: 16,
@@ -61,17 +62,30 @@ class Goals extends StatelessWidget {
                     color: Colors.grey,
                   ),
                 ),
-                Row(
-                  children: [
-                    Text(
-                      'Add Goals',
-                      style: TextStyle(color: Colors.deepOrangeAccent),
-                    ),
-                    Icon(
-                      Icons.add,
-                      color: Colors.deepOrangeAccent,
-                    ),
-                  ],
+                GestureDetector(
+                  onTap: () {
+                    showModalBottomSheet<void>(
+                      showDragHandle: true,
+                      isDismissible: false,
+                      enableDrag: false,
+                      context: context,
+                      builder: (BuildContext context) {
+                        return  const AddGoals();
+                      },
+                    );
+                  },
+                  child: const Row(
+                    children: [
+                      Text(
+                        'Add Goals',
+                        style: TextStyle(color: Colors.deepOrangeAccent),
+                      ),
+                      Icon(
+                        Icons.add,
+                        color: Colors.deepOrangeAccent,
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
