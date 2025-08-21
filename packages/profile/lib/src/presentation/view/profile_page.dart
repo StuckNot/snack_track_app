@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:profile/src/domain/entities/user_profile.dart';
 import 'package:profile/src/presentation/bloc/profile_bloc.dart';
 import 'package:profile/src/presentation/widgets/goals.dart';
+import 'package:profile/src/presentation/widgets/health_conditions.dart';
 import 'package:profile/src/presentation/widgets/overview.dart';
 
 @RoutePage()
@@ -26,7 +27,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               name: 'Sunpreet',
               age: 30,
               gender: 'M',
-              healthConditions: ['sugar'],
+              healthConditions: ['sugar','hypertension'],
               language: 'English',
               nationality: 'India',
               dietPreference: 'Veg',
@@ -104,6 +105,9 @@ class ProfileView extends StatelessWidget {
               height: profile?.heightCm ?? 0,
             ),
             const Goals(),
+            HealthConditions(
+              healthConditions: profile?.healthConditions,
+            ),
           ],
         ),
       ],
