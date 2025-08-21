@@ -1,0 +1,258 @@
+{
+  "miniSamosa": "मिनी समोसा",
+  "@miniSamosa": {
+    "description": "Title of Mini Samosa"
+  },
+
+  "miniSamosaDesc": "मिनी समोसा छोटे, नमकीन, त्रिकोणीय पेस्ट्री होते हैं जो मसालेदार सब्जियों या मांस से भरे होते हैं और दक्षिण एशिया में एक लोकप्रिय नाश्ते के रूप में व्यापक रूप से आनंदित किए जाते हैं।",
+  "@miniSamosaDesc": {
+    "description": "Description of Mini Samosa"
+  },
+
+  "ingredients": "सामग्री",
+  "@ingredients": {
+    "description": "Ingredients section title"
+  },
+
+  "items": "वस्तुएँ",
+  "@items": {
+    "description": "Items section title"
+  },
+
+  "calories": "कैलोरी",
+  "@calories": {
+    "description": "Calories information"
+  },
+
+  "fat": "वसा",
+  "@fat": {
+    "description": "Fat information"
+  },
+
+  "protein": "प्रोटीन",
+  "@protein": {
+    "description": "Protein information"
+  },
+
+  "carbs": "कार्बोहाइड्रेट",
+  "@carbs": {
+    "description": "Carbohydrates information"
+  },
+
+  "sugar": "चीनी",
+  "@sugar": {
+    "description": "Sugar information"
+  },
+
+  "fibre": "रेशा",
+  "@fibre": {
+    "description": "Fibre information"
+  },
+
+  "vitamins": "विटामिन",
+  "@vitamins": {
+    "description": "Vitamins information"
+  },
+
+  "minerals": "खनिज",
+  "@minerals": {
+    "description": "Minerals information"
+  },
+
+  "sodium": "सोडियम",
+  "@sodium": {
+    "description": "Sodium information"
+  },
+
+  "calcium": "कैल्शियम",
+  "@calcium": {
+    "description": "Calcium information"
+  },
+
+  "iron": "लोहा",
+  "@iron": {
+    "description": "Iron information"
+  },
+
+  "potassium": "पोटेशियम",
+  "@potassium": {
+    "description": "Potassium information"
+  },
+
+  "cholesterol": "कोलेस्ट्रॉल",
+  "@cholesterol": {
+    "description": "Cholesterol information"
+  },
+
+  "folate": "फोलेट",
+  "@folate": {
+    "description": "Folate information"
+  },
+
+  "magnesium": "मैग्नीशियम",
+  "@magnesium": {
+    "description": "Magnesium information"
+  },
+
+  "maida": "मैदा",
+  "@maida": {
+    "description": "Maida ingredient"
+  },
+
+  "gheeOrOil": "घी या तेल",
+  "@gheeOrOil": {
+    "description": "Ghee or Oil ingredient"
+  },
+
+  "salt": "नमक",
+  "@salt": {
+    "description": "Salt ingredient"
+  },
+
+  "boiledPotatoes": "उबले आलू",
+  "@boiledPotatoes": {
+    "description": "Boiled Potatoes ingredient"
+  },
+
+  "greenPeas": "हरे मटर",
+  "@greenPeas": {
+    "description": "Green Peas ingredient"
+  },
+
+  "gingerGarlicPaste": "अदरक और लहसुन का पेस्ट",
+  "@gingerGarlicPaste": {
+    "description": "Ginger & Garlic Paste ingredient"
+  },
+
+  "greenChilies": "हरी मिर्च",
+  "@greenChilies": {
+    "description": "Green Chilies ingredient"
+  },
+
+  "corianderPowder": "धनिया पाउडर",
+  "@corianderPowder": {
+    "description": "Coriander Powder ingredient"
+  },
+
+  "cuminPowder": "जीरा पाउडर",
+  "@cuminPowder": {
+    "description": "Cumin Powder ingredient"
+  },
+
+  "garamMasala": "गरम मसाला",
+  "@garamMasala": {
+    "description": "Garam Masala ingredient"
+  },
+
+  "amchur": "अमचूर",
+  "@amchur": {
+    "description": "Amchur ingredient"
+  },
+
+  "corianderLeaves": "धनिया पत्तियाँ",
+  "@corianderLeaves": {
+    "description": "Coriander Leaves ingredient"
+  },
+
+  "miniSamosaCalories": "२५०",
+  "@miniSamosaCalories": {
+    "description": "मिनी समोसा में कैलोरी"
+  },
+  "miniSamosaProtein": "१५g",
+  "@miniSamosaProtein": {
+    "description": "मिनी समोसा में प्रोटीन"
+  },
+  "miniSamosaCarbs": "२०g",
+  "@miniSamosaCarbs": {
+    "description": "मिनी समोसा में कार्बोहाइड्रेट"
+  },
+  "miniSamosaFat": "३०g",
+  "@miniSamosaFat": {
+    "description": "मिनी समोसा में वसा"
+  },
+  "miniSamosaFiber": "५g",
+  "@miniSamosaFiber": {
+    "description": "मिनी समोसा में फाइबर"
+  },
+  "miniSamosaSugar": "१०g",
+  "@miniSamosaSugar": {
+    "description": "मिनी समोसा में शक्कर"
+  },
+  "miniSamosaIron": "२mg",
+  "@miniSamosaIron": {
+    "description": "मिनी समोसा में आयरन"
+  },
+  "miniSamosaZinc": "१mg",
+  "@miniSamosaZinc": {
+    "description": "मिनी समोसा में जिंक"
+  },
+  "miniSamosaSodium": "१५०mg",
+  "@miniSamosaSodium": {
+    "description": "मिनी समोसा में सोडियम"
+  },
+  "miniSamosaPotassium": "३००mg",
+  "@miniSamosaPotassium": {
+    "description": "मिनी समोसा में पोटैशियम"
+  },
+  "miniSamosaCalcium": "४००mg",
+  "@miniSamosaCalcium": {
+    "description": "मिनी समोसा में कैल्शियम"
+  },
+  "miniSamosaMagnesium": "५०mg",
+  "@miniSamosaMagnesium": {
+    "description": "मिनी समोसा में मैग्नीशियम"
+  },
+  "miniSamosaVitaminC": "४mg",
+  "@miniSamosaVitaminC": {
+    "description": "मिनी समोसा में विटामिन C"
+  },
+  "miniSamosaCholesterol": "७५mg",
+  "@miniSamosaCholesterol": {
+    "description": "मिनी समोसा में कोलेस्ट्रॉल"
+  },
+
+  "oneCup": "१ कप",
+  "@oneCup": {
+    "description": "१ cup quantity"
+  },
+
+  "twoTbsp": "२ बड़े चम्मच",
+  "@twoTbsp": {
+    "description": "२ tablespoon quantity"
+  },
+
+  "toTaste": "स्वादानुसार",
+  "@toTaste": {
+    "description": "To taste quantity"
+  },
+
+  "twoMedium": "२ मध्यम",
+  "@twoMedium": {
+    "description": "२ medium quantity"
+  },
+
+  "quarterCup": "१/४ कप",
+  "@quarterCup": {
+    "description": "१/४ cup quantity"
+  },
+
+  "oneTsp": "१ छोटा चम्मच",
+  "@oneTsp": {
+    "description": "१ teaspoon quantity"
+  },
+
+  "twoChopped": "२ कटी हुई",
+  "@twoChopped": {
+    "description": "२ chopped quantity"
+  },
+
+  "halfTsp": "१/२ छोटा चम्मच",
+  "@halfTsp": {
+    "description": "१/२ teaspoon quantity"
+  },
+
+  "twoTbspChopped": "२ बड़े चम्मच कटा हुआ",
+  "@twoTbspChopped": {
+    "description": "२ tbsp chopped quantity"
+  }
+}

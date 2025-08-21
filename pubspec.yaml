@@ -9,6 +9,10 @@ environment:
 dependencies:
   authenticate:
     path: packages/authenticate
+
+  product_breakdown:
+    path: packages/product_breakdown
+
   auto_route: ^10.1.0+1
   bloc: ^9.0.0
   equatable:

@@ -1,0 +1,260 @@
+{
+  "@@locale": "en",
+
+  "miniSamosa": "Mini Samosa",
+  "@miniSamosa": {
+    "description": "Title of Mini Samosa"
+  },
+
+  "miniSamosaDesc": "Mini samosas are small, savory, triangular pastries filled with spiced vegetables or meat, widely enjoyed as a popular snack in South Asia.",
+  "@miniSamosaDesc": {
+    "description": "Description of Mini Samosa"
+  },
+
+  "ingredients": "Ingredients",
+  "@ingredients": {
+    "description": "Ingredients section title"
+  },
+
+  "items": "Items",
+  "@items": {
+    "description": "Items section title"
+  },
+
+  "calories": "Calories",
+  "@calories": {
+    "description": "Calories information"
+  },
+
+  "fat": "Fat",
+  "@fat": {
+    "description": "Fat information"
+  },
+
+  "protein": "Protein",
+  "@protein": {
+    "description": "Protein information"
+  },
+
+  "carbs": "Carbohydrates",
+  "@carbs": {
+    "description": "Carbohydrates information"
+  },
+
+  "sugar": "Sugar",
+  "@sugar": {
+    "description": "Sugar information"
+  },
+
+  "fibre": "Fibre",
+  "@fibre": {
+    "description": "Fibre information"
+  },
+
+  "vitamins": "Vitamins",
+  "@vitamins": {
+    "description": "Vitamins information"
+  },
+
+  "minerals": "Minerals",
+  "@minerals": {
+    "description": "Minerals information"
+  },
+
+  "sodium": "Sodium",
+  "@sodium": {
+    "description": "Sodium information"
+  },
+
+  "calcium": "Calcium",
+  "@calcium": {
+    "description": "Calcium information"
+  },
+
+  "iron": "Iron",
+  "@iron": {
+    "description": "Iron information"
+  },
+
+  "potassium": "Potassium",
+  "@potassium": {
+    "description": "Potassium information"
+  },
+
+  "cholesterol": "Cholesterol",
+  "@cholesterol": {
+    "description": "Cholesterol information"
+  },
+
+  "folate": "Folate",
+  "@folate": {
+    "description": "Folate information"
+  },
+
+  "magnesium": "Magnesium",
+  "@magnesium": {
+    "description": "Magnesium information"
+  },
+
+  "maida": "Maida",
+  "@maida": {
+    "description": "Maida ingredient"
+  },
+
+  "gheeOrOil": "Ghee or Oil",
+  "@gheeOrOil": {
+    "description": "Ghee or Oil ingredient"
+  },
+
+  "salt": "Salt",
+  "@salt": {
+    "description": "Salt ingredient"
+  },
+
+  "boiledPotatoes": "Boiled Potatoes",
+  "@boiledPotatoes": {
+    "description": "Boiled Potatoes ingredient"
+  },
+
+  "greenPeas": "Green Peas",
+  "@greenPeas": {
+    "description": "Green Peas ingredient"
+  },
+
+  "gingerGarlicPaste": "Ginger & Garlic Paste",
+  "@gingerGarlicPaste": {
+    "description": "Ginger & Garlic Paste ingredient"
+  },
+
+  "greenChilies": "Green Chilies",
+  "@greenChilies": {
+    "description": "Green Chilies ingredient"
+  },
+
+  "corianderPowder": "Coriander Powder",
+  "@corianderPowder": {
+    "description": "Coriander Powder ingredient"
+  },
+
+  "cuminPowder": "Cumin Powder",
+  "@cuminPowder": {
+    "description": "Cumin Powder ingredient"
+  },
+
+  "garamMasala": "Garam Masala",
+  "@garamMasala": {
+    "description": "Garam Masala ingredient"
+  },
+
+  "amchur": "Amchur",
+  "@amchur": {
+    "description": "Amchur ingredient"
+  },
+
+  "miniSamosaCalories": "250",
+  "@miniSamosaCalories": {
+    "description": "Calories in Mini Samosa"
+  },
+  "miniSamosaProtein": "15g",
+  "@miniSamosaProtein": {
+    "description": "Protein content in Mini Samosa"
+  },
+  "miniSamosaCarbs": "20g",
+  "@miniSamosaCarbs": {
+    "description": "Carbohydrates in Mini Samosa"
+  },
+  "miniSamosaFat": "30g",
+  "@miniSamosaFat": {
+    "description": "Fat in Mini Samosa"
+  },
+  "miniSamosaFiber": "5g",
+  "@miniSamosaFiber": {
+    "description": "Fiber in Mini Samosa"
+  },
+  "miniSamosaSugar": "10g",
+  "@miniSamosaSugar": {
+    "description": "Sugar in Mini Samosa"
+  },
+  "miniSamosaIron": "2mg",
+  "@miniSamosaIron": {
+    "description": "Iron in Mini Samosa"
+  },
+  "miniSamosaZinc": "1mg",
+  "@miniSamosaZinc": {
+    "description": "Zinc in Mini Samosa"
+  },
+  "miniSamosaSodium": "150mg",
+  "@miniSamosaSodium": {
+    "description": "Sodium in Mini Samosa"
+  },
+  "miniSamosaPotassium": "300mg",
+  "@miniSamosaPotassium": {
+    "description": "Potassium in Mini Samosa"
+  },
+  "miniSamosaCalcium": "400mg",
+  "@miniSamosaCalcium": {
+    "description": "Calcium in Mini Samosa"
+  },
+  "miniSamosaMagnesium": "50mg",
+  "@miniSamosaMagnesium": {
+    "description": "Magnesium in Mini Samosa"
+  },
+  "miniSamosaVitaminC": "4mg",
+  "@miniSamosaVitaminC": {
+    "description": "Vitamin C in Mini Samosa"
+  },
+  "miniSamosaCholesterol": "75mg",
+  "@miniSamosaCholesterol": {
+    "description": "Cholesterol in Mini Samosa"
+  },
+
+  "corianderLeaves": "Coriander Leaves",
+  "@corianderLeaves": {
+    "description": "Coriander Leaves ingredient"
+  },
+
+  "oneCup": "1 Cup",
+  "@oneCup": {
+    "description": "1 cup quantity"
+  },
+
+  "twoTbsp": "2 Tablespoons",
+  "@twoTbsp": {
+    "description": "2 tablespoon quantity"
+  },
+
+  "toTaste": "To taste",
+  "@toTaste": {
+    "description": "To taste quantity"
+  },
+
+  "twoMedium": "2 Medium",
+  "@twoMedium": {
+    "description": "2 medium quantity"
+  },
+
+  "quarterCup": "1/4 Cup",
+  "@quarterCup": {
+    "description": "1/4 cup quantity"
+  },
+
+  "oneTsp": "1 Teaspoon",
+  "@oneTsp": {
+    "description": "1 teaspoon quantity"
+  },
+
+  "twoChopped": "2 Chopped",
+  "@twoChopped": {
+    "description": "2 chopped quantity"
+  },
+
+  "halfTsp": "1/2 Teaspoon",
+  "@halfTsp": {
+    "description": "1/2 teaspoon quantity"
+  },
+
+  "twoTbspChopped": "2 Tablespoons Chopped",
+  "@twoTbspChopped": {
+    "description": "2 tbsp chopped quantity"
+  }
+}
