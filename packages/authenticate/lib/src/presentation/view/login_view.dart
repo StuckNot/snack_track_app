@@ -56,7 +56,7 @@ class LoginView extends StatelessWidget {
                 builder: (context, value, child) {
                   return CurveTextField(
                     label: l10n.password,
-                    hintText: l10n.enterEmail,
+                    hintText: l10n.enterPassword,
                     obscure: value,
                     controller: passwdController,
                     sufixIcon: GestureDetector(
