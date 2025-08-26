@@ -25,7 +25,7 @@ dependencies:
   scanner:
     path: packages/scanner
   intl: ^0.20.2
-  bdd_widget_test: 1.8.0
+  bdd_widget_test: 2.0.1
 
 dev_dependencies:
   bloc_test: ^10.0.0
