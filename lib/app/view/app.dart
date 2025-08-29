@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:profile/profile.dart';
+import 'package:scanner/scanner.dart';
 import 'package:snack_track_app/theme/app_theme.dart';
 
 class App extends StatelessWidget {
@@ -11,10 +11,10 @@ class App extends StatelessWidget {
       title: 'SnackTrack',
       theme: AppTheme.light,
       localizationsDelegates:  const [
-        ...ProfileLocalization.localizationsDelegates
+        ...AppLocalizations.localizationsDelegates
       ],
       supportedLocales:  const [
-        ...ProfileLocalization.supportedLocales
+        ...AppLocalizations.supportedLocales
       ],
       home: const LoginScreen(),
     );

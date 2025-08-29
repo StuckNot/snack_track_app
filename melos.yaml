@@ -60,6 +60,11 @@ scripts:
     run: melos exec -- flutter clean
     description: 'Clean all packages and apps.'
 
+    gen_l10n:
+      # Fetch localization for every package.
+      run: melos exec -- flutter gen-l10n #flutter gen-l10n --arb-dir="lib/l10n/arb"
+      description: 'Run "flutter gen-l10n" for all packages.'
+
   build:apk:
     # Build Android APKs for all apps with an 'android' directory.
     run: melos exec -- "flutter build apk"
