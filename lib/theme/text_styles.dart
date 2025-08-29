@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:snack_track_app/theme/color_scheme.dart';
 
 class AppTextStyles {
-  static const heading = TextStyle(
+  static  TextStyle heading = const TextStyle(
     fontSize: 24,
     fontWeight: FontWeight.bold,
-    color: AppColors.textPrimary,
+    color: primaryColor,
   );
 
-  static const body = TextStyle(
+  static  TextStyle body = const TextStyle(
     fontSize: 16,
-    color: AppColors.textPrimary,
+    color: primaryColor,
   );
 }
