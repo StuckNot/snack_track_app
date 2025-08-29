@@ -55,10 +55,10 @@ class Overview extends StatelessWidget {
         Container(
           height: MediaQuery.of(context).size.height * .25,
           width: MediaQuery.of(context).size.width,
-          decoration: const ShapeDecoration(
-            color: Colors.black87,
-            shape: ProfileBackgroundShape(),
-            shadows: [BoxShadow(color: Colors.black26, blurRadius: 5)],
+          decoration:  ShapeDecoration(
+            color: Theme.of(context).colorScheme.onSurface,
+            shape: const ProfileBackgroundShape(),
+            shadows: const [BoxShadow(color: Colors.black26, blurRadius: 5)],
           ),
         ),
         Padding(
