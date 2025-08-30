@@ -1,5 +1,5 @@
 import 'package:authenticate/l10n/l10n.dart';
-import 'package:authenticate/src/domain/entities/login_request.dart';
+import 'package:authenticate/src/domain/entities/login_request/login_request.dart';
 import 'package:authenticate/src/presentation/bloc/login_bloc.dart';
 import 'package:authenticate/src/presentation/view/login_view.dart';
 import 'package:authenticate/src/presentation/widgets/curve_large_button.dart';

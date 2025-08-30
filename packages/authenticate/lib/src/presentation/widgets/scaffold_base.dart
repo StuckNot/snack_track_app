@@ -19,8 +19,8 @@ class ScaffoldBase extends StatelessWidget {
           Container(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
-            decoration: const BoxDecoration(
-              color: Colors.lightGreen,
+            decoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.primary,
             ),
             child: Align(
               alignment: const Alignment(0, -0.75),
@@ -44,7 +44,7 @@ class ScaffoldBase extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.white,
                 border: Border.all(),
-                borderRadius: AppBorder.border,
+                borderRadius: AuthBorder.border,
               ),
               child: child,
             ),

@@ -1,5 +1,5 @@
 import 'package:authenticate/l10n/l10n.dart';
-import 'package:authenticate/src/domain/entities/login_request.dart';
+import 'package:authenticate/src/domain/entities/login_request/login_request.dart';
 import 'package:authenticate/src/presentation/bloc/login_bloc.dart';
 import 'package:authenticate/src/presentation/theme/auth_padding.dart';
 import 'package:authenticate/src/presentation/view/forgot_password/forgot_password_screen.dart';
@@ -28,7 +28,7 @@ class LoginView extends StatelessWidget {
 
     final l10n = context.l10n;
     return Padding(
-      padding: AuthPadding.common,
+      padding: AuthPadding.page,
       child: BlocListener<LoginBloc,LoginStates>(
         listener: (context,state){
           if(state is LoginFailure){

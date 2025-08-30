@@ -17,7 +17,7 @@ class ForgotPasswordView extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = context.l10n;
     return
-      Padding(padding: AuthPadding.common,
+      Padding(padding: AuthPadding.page,
       child:
     SingleChildScrollView(
         child: Column(

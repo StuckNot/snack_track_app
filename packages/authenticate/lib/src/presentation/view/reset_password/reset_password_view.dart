@@ -11,7 +11,7 @@ class ResetPasswordView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n =context.l10n;
-    return Padding(padding: AuthPadding.common,
+    return Padding(padding: AuthPadding.page,
       child: SingleChildScrollView(
         child: Column(
           children: [
