@@ -1,5 +1,5 @@
+import 'package:authenticate/src/domain/entities/auth_response/Auth_response.dart';
 import 'package:authenticate/src/domain/entities/login_request/login_request.dart';
-import 'package:authenticate/src/domain/entities/login_response/login_response.dart';
 import'package:flutter_bloc/flutter_bloc.dart';
 part 'login_event.dart';
 part 'login_state.dart';
