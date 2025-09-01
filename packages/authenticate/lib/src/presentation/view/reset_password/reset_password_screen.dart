@@ -1,5 +1,4 @@
 import 'package:authenticate/l10n/l10n.dart';
-import 'package:authenticate/src/presentation/theme/auth_padding.dart';
 import 'package:authenticate/src/presentation/view/reset_password/reset_password_view.dart';
 import 'package:authenticate/src/presentation/widgets/scaffold_base.dart';
 import 'package:flutter/material.dart';

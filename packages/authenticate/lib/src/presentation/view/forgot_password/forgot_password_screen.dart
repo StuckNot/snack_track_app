@@ -1,5 +1,6 @@
 import 'package:authenticate/l10n/l10n.dart';
 import 'package:authenticate/src/presentation/view/forgot_password/forgot_password_view.dart';
+
 import 'package:authenticate/src/presentation/widgets/scaffold_base.dart';
 import 'package:flutter/material.dart';
 
