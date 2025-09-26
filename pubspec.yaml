@@ -10,7 +10,7 @@ dependencies:
   authenticate:
     path: packages/authenticate
   auto_route: ^10.1.0+1
-  bloc: ^9.0.0
+  bloc: ^9.0.1
   equatable:
   flutter:
     sdk: flutter
