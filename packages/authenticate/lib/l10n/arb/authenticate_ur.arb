@@ -1,0 +1,91 @@
+{
+  "@@locale": "ur",
+
+  "appTitle": "اسنیک ٹریک",
+  "@appTitle": {
+    "description": "Title of the app"
+  },
+
+  "loginText": "لاگ ان",
+  "@loginText": {
+    "description": "Label for Login button"
+  },
+
+  "password": "پاس ورڈ",
+  "@password": {
+    "description": "Label for Password field"
+  },
+
+  "otp": "OTP",
+  "@otp": {
+    "description": "one time password"
+  },
+
+  "sendOtp": "OTP بھیجیں",
+  "@sendOtp": {
+    "description": "text for sending OTP"
+  },
+
+  "verify": "تصدیق کریں",
+  "@verify": {
+    "description": "verification text"
+  },
+
+  "resetPassword": "پاس ورڈ ری سیٹ کریں",
+  "@resetPassword": {
+    "description": "text for reset password"
+  },
+
+  "email": "ای میل",
+  "@email": {
+    "description": "Label for email field"
+  },
+
+  "forgotPassword": "پاس ورڈ بھول گئے؟",
+  "@forgotPassword": {
+    "description": "Forgot Password link text"
+  },
+
+  "keepLogin": "مجھے لاگ ان رہنے دیں",
+  "@keepLogin": {
+    "description": "Keep me logged in option"
+  },
+
+  "google": "گوگل",
+  "@google": {
+    "description": "Google login button label"
+  },
+
+  "facebook": "فیس بک",
+  "@facebook": {
+    "description": "Facebook login button label"
+  },
+
+  "dontHaveAccount": "اکاؤنٹ نہیں ہے؟",
+  "@dontHaveAccount": {
+    "description": "Text before Sign up link"
+  },
+
+  "signUp": "سائن اپ کریں",
+  "@signUp": {
+    "description": "Sign up link text"
+  },
+
+  "orSignUp": "یا سائن اپ کریں",
+  "@orSignUp": {
+    "description": "Sign up option"
+  },
+  "enterEmail": "ای میل درج کریں",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "پاس ورڈ درج کریں",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "اپنے کھانے کو جانیں",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}

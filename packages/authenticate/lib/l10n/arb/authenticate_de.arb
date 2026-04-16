@@ -1,0 +1,62 @@
+{
+  "@@locale": "de",
+
+  "appTitle": "Snack Track",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "Anmelden",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "Passwort",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "OTP",
+  "@otp": {"description": "one time password"},
+
+  "sendOtp": "OTP senden",
+  "@sendOtp": {"description": "text for sending OTP"},
+
+  "verify": "Überprüfen",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "Passwort zurücksetzen",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "E-Mail",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "Passwort vergessen?",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "Angemeldet bleiben",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "Google",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "Facebook",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "Noch kein Konto?",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "Registrieren",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "Oder Registrieren",
+  "@orSignUp": {"description": "Sign up option"},
+
+  "enterEmail": "E-Mail eingeben",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "Passwort eingeben",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "Kenne dein Essen",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}

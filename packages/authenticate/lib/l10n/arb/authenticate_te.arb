@@ -1,0 +1,61 @@
+{
+  "@@locale": "te",
+
+  "appTitle": "స్నాక్ ట్రాక్",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "లాగిన్",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "పాస్వర్డ్",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "ఒకసారిగా ఉపయోగించే పాస్వర్డ్",
+  "@otp": {"description": "one time password"},
+
+  "sendOtp": "OTP పంపండి",
+  "@sendOtp": {"description": "text for sending OTP"},
+
+  "verify": "నిర్ధారించండి",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "పాస్వర్డ్ రీసెట్ చేయండి",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "ఇమెయిల్",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "పాస్వర్డ్ మర్చిపోయారా?",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "నన్ను లాగిన్‌లో ఉంచండి",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "గూగుల్",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "ఫేస్బుక్",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "ఖాతా లేదు?",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "సైన్ అప్ చేయండి",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "లేదా సైన్ అప్ చేయండి",
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "ఈమెయిల్ నమోదు చేయండి",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "పాస్వర్డ్ నమోదు చేయండి",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "మీ ఆహారాన్ని తెలుసుకోండి",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}

@@ -1,4 +1,5 @@
 import 'package:authenticate/authenticate.dart';
+import 'package:authenticate/l10n/gen/authenticate_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

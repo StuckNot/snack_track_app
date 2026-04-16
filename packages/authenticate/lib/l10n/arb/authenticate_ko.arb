@@ -1,0 +1,61 @@
+{
+  "@@locale": "ko",
+
+  "appTitle": "스낵 트랙",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "로그인",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "비밀번호",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "일회용 비밀번호",
+  "@otp": {"description": "one time password"},
+
+  "sendOtp": "OTP 보내기",
+  "@sendOtp": {"description": "text for sending OTP"},
+
+  "verify": "확인",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "비밀번호 재설정",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "이메일",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "비밀번호를 잊으셨나요?",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "로그인 상태 유지",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "구글",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "페이스북",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "계정이 없으신가요?",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "가입하기",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "또는 가입하기",
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "이메일 입력",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "비밀번호 입력",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "당신의 음식을 알아보세요",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}
