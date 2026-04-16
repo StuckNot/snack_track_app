@@ -1,0 +1,260 @@
+{
+  "@@locale": "es",
+
+  "miniSamosa": "Mini Samosa",
+  "@miniSamosa": {
+    "description": "Título del Mini Samosa"
+  },
+
+  "miniSamosaDesc": "Los mini samosas son pequeños pasteles salados y triangulares rellenos de verduras o carne especiada, muy disfrutados como un aperitivo popular en el sur de Asia.",
+  "@miniSamosaDesc": {
+    "description": "Descripción del Mini Samosa"
+  },
+
+  "ingredients": "Ingredientes",
+  "@ingredients": {
+    "description": "Título de la sección de ingredientes"
+  },
+
+  "items": "Artículos",
+  "@items": {
+    "description": "Título de la sección de artículos"
+  },
+
+  "calories": "Calorías",
+  "@calories": {
+    "description": "Información de calorías"
+  },
+
+  "fat": "Grasa",
+  "@fat": {
+    "description": "Información de grasa"
+  },
+
+  "protein": "Proteína",
+  "@protein": {
+    "description": "Información de proteína"
+  },
+
+  "carbs": "Carbohidratos",
+  "@carbs": {
+    "description": "Información de carbohidratos"
+  },
+
+  "sugar": "Azúcar",
+  "@sugar": {
+    "description": "Información de azúcar"
+  },
+
+  "fibre": "Fibra",
+  "@fibre": {
+    "description": "Información de fibra"
+  },
+
+  "vitamins": "Vitaminas",
+  "@vitamins": {
+    "description": "Información de vitaminas"
+  },
+
+  "minerals": "Minerales",
+  "@minerals": {
+    "description": "Información de minerales"
+  },
+
+  "sodium": "Sodio",
+  "@sodium": {
+    "description": "Información de sodio"
+  },
+
+  "calcium": "Calcio",
+  "@calcium": {
+    "description": "Información de calcio"
+  },
+
+  "iron": "Hierro",
+  "@iron": {
+    "description": "Información de hierro"
+  },
+
+  "potassium": "Potasio",
+  "@potassium": {
+    "description": "Información de potasio"
+  },
+
+  "cholesterol": "Colesterol",
+  "@cholesterol": {
+    "description": "Información de colesterol"
+  },
+
+  "folate": "Folato",
+  "@folate": {
+    "description": "Información de folato"
+  },
+
+  "magnesium": "Magnesio",
+  "@magnesium": {
+    "description": "Información de magnesio"
+  },
+
+  "maida": "Harina de trigo (Maida)",
+  "@maida": {
+    "description": "Ingrediente: maida"
+  },
+
+  "gheeOrOil": "Ghee o Aceite",
+  "@gheeOrOil": {
+    "description": "Ingrediente: ghee o aceite"
+  },
+
+  "salt": "Sal",
+  "@salt": {
+    "description": "Ingrediente: sal"
+  },
+
+  "boiledPotatoes": "Papas Hervidas",
+  "@boiledPotatoes": {
+    "description": "Ingrediente: papas hervidas"
+  },
+
+  "greenPeas": "Guisantes Verdes",
+  "@greenPeas": {
+    "description": "Ingrediente: guisantes verdes"
+  },
+
+  "gingerGarlicPaste": "Pasta de Jengibre y Ajo",
+  "@gingerGarlicPaste": {
+    "description": "Ingrediente: pasta de jengibre y ajo"
+  },
+
+  "greenChilies": "Chiles Verdes",
+  "@greenChilies": {
+    "description": "Ingrediente: chiles verdes"
+  },
+
+  "corianderPowder": "Polvo de Cilantro",
+  "@corianderPowder": {
+    "description": "Ingrediente: polvo de cilantro"
+  },
+
+  "cuminPowder": "Polvo de Comino",
+  "@cuminPowder": {
+    "description": "Ingrediente: polvo de comino"
+  },
+
+  "garamMasala": "Garam Masala",
+  "@garamMasala": {
+    "description": "Ingrediente: garam masala"
+  },
+
+  "amchur": "Amchur (Polvo de Mango Seco)",
+  "@amchur": {
+    "description": "Ingrediente: amchur"
+  },
+
+  "corianderLeaves": "Hojas de Cilantro",
+  "@corianderLeaves": {
+    "description": "Ingrediente: hojas de cilantro"
+  },
+
+  "miniSamosaCalories": "250",
+  "@miniSamosaCalories": {
+    "description": "Calorías en Mini Samosa"
+  },
+  "miniSamosaProtein": "15g",
+  "@miniSamosaProtein": {
+    "description": "Proteína en Mini Samosa"
+  },
+  "miniSamosaCarbs": "20g",
+  "@miniSamosaCarbs": {
+    "description": "Carbohidratos en Mini Samosa"
+  },
+  "miniSamosaFat": "30g",
+  "@miniSamosaFat": {
+    "description": "Grasas en Mini Samosa"
+  },
+  "miniSamosaFiber": "5g",
+  "@miniSamosaFiber": {
+    "description": "Fibra en Mini Samosa"
+  },
+  "miniSamosaSugar": "10g",
+  "@miniSamosaSugar": {
+    "description": "Azúcar en Mini Samosa"
+  },
+  "miniSamosaIron": "2mg",
+  "@miniSamosaIron": {
+    "description": "Hierro en Mini Samosa"
+  },
+  "miniSamosaZinc": "1mg",
+  "@miniSamosaZinc": {
+    "description": "Zinc en Mini Samosa"
+  },
+  "miniSamosaSodium": "150mg",
+  "@miniSamosaSodium": {
+    "description": "Sodio en Mini Samosa"
+  },
+  "miniSamosaPotassium": "300mg",
+  "@miniSamosaPotassium": {
+    "description": "Potasio en Mini Samosa"
+  },
+  "miniSamosaCalcium": "400mg",
+  "@miniSamosaCalcium": {
+    "description": "Calcio en Mini Samosa"
+  },
+  "miniSamosaMagnesium": "50mg",
+  "@miniSamosaMagnesium": {
+    "description": "Magnesio en Mini Samosa"
+  },
+  "miniSamosaVitaminC": "4mg",
+  "@miniSamosaVitaminC": {
+    "description": "Vitamina C en Mini Samosa"
+  },
+  "miniSamosaCholesterol": "75mg",
+  "@miniSamosaCholesterol": {
+    "description": "Colesterol en Mini Samosa"
+  },
+
+  "oneCup": "1 Taza",
+  "@oneCup": {
+    "description": "Cantidad: 1 taza"
+  },
+
+  "twoTbsp": "2 Cucharadas",
+  "@twoTbsp": {
+    "description": "Cantidad: 2 cucharadas"
+  },
+
+  "toTaste": "Al gusto",
+  "@toTaste": {
+    "description": "Cantidad: al gusto"
+  },
+
+  "twoMedium": "2 Medianas",
+  "@twoMedium": {
+    "description": "Cantidad: 2 medianas"
+  },
+
+  "quarterCup": "1/4 Taza",
+  "@quarterCup": {
+    "description": "Cantidad: 1/4 taza"
+  },
+
+  "oneTsp": "1 Cucharadita",
+  "@oneTsp": {
+    "description": "Cantidad: 1 cucharadita"
+  },
+
+  "twoChopped": "2 Picadas",
+  "@twoChopped": {
+    "description": "Cantidad: 2 picadas"
+  },
+
+  "halfTsp": "1/2 Cucharadita",
+  "@halfTsp": {
+    "description": "Cantidad: 1/2 cucharadita"
+  },
+
+  "twoTbspChopped": "2 Cucharadas Picadas",
+  "@twoTbspChopped": {
+    "description": "Cantidad: 2 cucharadas picadas"
+  }
+}
