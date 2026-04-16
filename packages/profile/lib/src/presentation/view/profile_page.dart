@@ -1,3 +1,4 @@
+import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:profile/src/domain/entities/user_profile.dart';
@@ -6,6 +7,7 @@ import 'package:profile/src/presentation/widgets/goals.dart';
 import 'package:profile/src/presentation/widgets/health_conditions.dart';
 import 'package:profile/src/presentation/widgets/overview.dart';
 
+@RoutePage()
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
 
@@ -17,7 +19,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.shade200,
+      // backgroundColor: Colors.grey.shade200,
       floatingActionButton: FloatingActionButton(
         onPressed: () => context.read<ProfileBloc>().add(
           const SetProfile(
@@ -66,7 +68,8 @@ class ProfileView extends StatelessWidget {
     return ListView(
       children: [
         ColoredBox(
-          color: Colors.black87,
+          color: Theme.of(context).colorScheme.onSurface,
+          // color: Colors.black87,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -89,7 +92,7 @@ class ProfileView extends StatelessWidget {
                 onPressed: () {},
                 icon: const Icon(
                   Icons.settings,
-                  color: Colors.deepOrangeAccent,
+                  // color: Colors.deepOrangeAccent,
                 ),
               ),
             ],

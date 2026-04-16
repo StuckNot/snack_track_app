@@ -10,12 +10,14 @@ class CurveTextField extends StatelessWidget {
   final Widget? prefixIcon;
   final Widget? sufixIcon;
   final bool? obscure;
+  final String? hintText;
 
 
   const CurveTextField({
     super.key,
     required this.label,
     required this.controller,
+    this.hintText,
     this.validator,
     this.maxLength,
     this.maxLines,
@@ -32,7 +34,7 @@ class CurveTextField extends StatelessWidget {
       children: [
         Text(
           label,
-          style:TextStyle(fontSize: 24,color:Colors.grey),
+          style:const TextStyle(fontSize: 24,color:Colors.grey,fontWeight: FontWeight.bold),
         ),
         const SizedBox(
           height: 10,
@@ -44,10 +46,10 @@ class CurveTextField extends StatelessWidget {
           obscureText: obscure??false,
           maxLines: maxLines??1,
           decoration: InputDecoration(
-              hintText: 'Enter $label',
+              hintText: '$hintText',
               counterText: '',
               border:
-              OutlineInputBorder(borderRadius: BorderRadius.circular(40),),
+              OutlineInputBorder(borderRadius: BorderRadius.circular(16),),
               prefixIcon: prefixIcon,
               suffixIcon: sufixIcon,
 

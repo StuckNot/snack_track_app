@@ -7,6 +7,7 @@ environment:
   sdk: ^3.8.0
 
 dependencies:
+  auto_route: ^10.1.0+1
   bloc: ^9.0.0
   equatable:
   flutter:
@@ -25,6 +26,7 @@ dev_dependencies:
     sdk: flutter
   mocktail: ^1.0.4
   very_good_analysis: ^9.0.0
+
 
 flutter:
   generate: true

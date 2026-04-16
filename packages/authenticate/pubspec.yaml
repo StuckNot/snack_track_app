@@ -8,6 +8,7 @@ environment:
   flutter: ^3.32.0
 
 dependencies:
+  auto_route: ^10.1.0+1
   bloc: ^9.0.0
   equatable:
   flutter:
@@ -15,14 +16,23 @@ dependencies:
   flutter_bloc: ^9.1.1
   flutter_localizations:
     sdk: flutter
+  flutter_otp_text_field: ^1.5.1+1
   get_it: ^8.0.3
   shared_preferences: ^2.2.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
 
 dev_dependencies:
+  auto_route_generator: ^10.2.3
+  bdd_widget_test: 1.8.0
+  build_runner: ^2.3.3
+  freezed: ^2.4.7
+  json_serializable: ^6.8.0
   flutter_test:
     sdk: flutter
   mocktail: ^1.0.4
   very_good_analysis: ^9.0.0
+
 flutter:
   generate: true
   uses-material-design: true
