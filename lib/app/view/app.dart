@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:scanner/scanner.dart';
 import 'package:snack_track_app/theme/app_theme.dart';
 
-
 class App extends StatelessWidget {
   const App({super.key});
 
@@ -12,13 +11,12 @@ class App extends StatelessWidget {
       title: 'SnackTrack',
       theme: AppTheme.light,
       localizationsDelegates:  const [
-        ...AppLocalizations.localizationsDelegates,
+        ...AppLocalizations.localizationsDelegates
       ],
       supportedLocales:  const [
-        ...AppLocalizations.supportedLocales,
+        ...AppLocalizations.supportedLocales
       ],
-      debugShowCheckedModeBanner: false,
-      home: const ScannerScreen(),
+      home: const LoginScreen(),
     );
   }
 }

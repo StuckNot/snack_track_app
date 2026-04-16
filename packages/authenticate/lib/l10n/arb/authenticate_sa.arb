@@ -1,0 +1,61 @@
+{
+  "@@locale": "sa",
+
+  "appTitle": "स्नैक ट्रैक",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "प्रवेश",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "गोपनीयशब्द",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "एकवारं प्रयोगशिल्पक पासवर्ड",
+  "@otp": {"description": "one time password"},
+
+  "sendOtp": "OTP प्रेषयतु",
+  "@sendOtp": {"description": "text for sending OTP"},
+
+  "verify": "सत्यापयतु",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "गोपनीयशब्द पुनःस्थापयतु",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "ईमेल",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "गोपनीयशब्द विस्मृतः?",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "मां प्रवेशितं यावत् कुर्व",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "गूगल",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "फेसबुक",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "खाता नास्ति?",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "पंजीकृत्यताम्",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "अथवा पंजीकृत्यताम्",
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "أدخل البريد الإلكتروني",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "أدخل كلمة المرور",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "اعرف طعامك",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}

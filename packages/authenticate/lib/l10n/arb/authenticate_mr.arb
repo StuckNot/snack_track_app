@@ -1,0 +1,91 @@
+{
+  "@@locale": "mr",
+
+  "appTitle": "स्नॅक ट्रॅक",
+  "@appTitle": {
+    "description": "Title of the app"
+  },
+
+  "loginText": "लॉगिन",
+  "@loginText": {
+    "description": "Label for Login button"
+  },
+
+  "password": "पासवर्ड",
+  "@password": {
+    "description": "Label for Password field"
+  },
+
+  "otp": "OTP",
+  "@otp": {
+    "description": "one time password"
+  },
+
+  "sendOtp": "OTP पाठवा",
+  "@sendOtp": {
+    "description": "text for sending OTP"
+  },
+
+  "verify": "सत्यापित करा",
+  "@verify": {
+    "description": "verification text"
+  },
+
+  "resetPassword": "पासवर्ड रीसेट करा",
+  "@resetPassword": {
+    "description": "text for reset password"
+  },
+
+  "email": "ईमेल",
+  "@email": {
+    "description": "Label for email field"
+  },
+
+  "forgotPassword": "पासवर्ड विसरलात?",
+  "@forgotPassword": {
+    "description": "Forgot Password link text"
+  },
+
+  "keepLogin": "मला लॉगिन राहू द्या",
+  "@keepLogin": {
+    "description": "Keep me logged in option"
+  },
+
+  "google": "गूगल",
+  "@google": {
+    "description": "Google login button label"
+  },
+
+  "facebook": "फेसबुक",
+  "@facebook": {
+    "description": "Facebook login button label"
+  },
+
+  "dontHaveAccount": "खाते नाही?",
+  "@dontHaveAccount": {
+    "description": "Text before Sign up link"
+  },
+
+  "signUp": "साइन अप करा",
+  "@signUp": {
+    "description": "Sign up link text"
+  },
+
+  "orSignUp": "किंवा साइन अप करा",
+  "@orSignUp": {
+    "description": "Sign up option"
+  },
+  "enterEmail": "ईमेल प्रविष्ट करा",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "पासवर्ड प्रविष्ट करा",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "तुमचे अन्न जाणून घ्या",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}

@@ -1,0 +1,61 @@
+{
+  "@@locale": "kn",
+
+  "appTitle": "ಸ್ನ್ಯಾಕ್ ಟ್ರ್ಯಾಕ್",
+  "@appTitle": {"description": "Title of the app"},
+
+  "loginText": "ಲಾಗಿನ್",
+  "@loginText": {"description": "Label for Login button"},
+
+  "password": "ಪಾಸ್ವರ್ಡ್",
+  "@password": {"description": "Label for Password field"},
+
+  "otp": "ಓಟಿಪಿ",
+  "@otp": {"description": "one time password"},
+
+  "sendOtp": "OTP ಕಳುಹಿಸಿ",
+  "@sendOtp": {"description": "text for sending OTP"},
+
+  "verify": "ಪರಿಶೀಲಿಸಿ",
+  "@verify": {"description": "verification text"},
+
+  "resetPassword": "ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ",
+  "@resetPassword": {"description": "text for reset password"},
+
+  "email": "ಇಮೇಲ್",
+  "@email": {"description": "Label for email field"},
+
+  "forgotPassword": "ಪಾಸ್ವರ್ಡ್ ಮರೆತೀರಾ?",
+  "@forgotPassword": {"description": "Forgot Password link text"},
+
+  "keepLogin": "ನನ್ನನ್ನು ಲಾಗಿನ್ ಆಗಿರಲಿ",
+  "@keepLogin": {"description": "Keep me logged in option"},
+
+  "google": "ಗೂಗಲ್",
+  "@google": {"description": "Google login button label"},
+
+  "facebook": "ಫೇಸ್ಬುಕ್",
+  "@facebook": {"description": "Facebook login button label"},
+
+  "dontHaveAccount": "ಖಾತೆ ಇಲ್ಲವೇ?",
+  "@dontHaveAccount": {"description": "Text before Sign up link"},
+
+  "signUp": "ಸೈನ್ ಅಪ್ ಮಾಡಿ",
+  "@signUp": {"description": "Sign up link text"},
+
+  "orSignUp": "ಅಥವಾ ಸೈನ್ ಅಪ್ ಮಾಡಿ",
+  "@orSignUp": {"description": "Sign up option"},
+  "enterEmail": "ಇಮೇಲ್ ನಮೂದಿಸಿ",
+  "@enterEmail": {
+    "description": "Email field hint text"
+  },
+  "enterPassword": "ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ",
+  "@enterPassword": {
+    "description": "Password field hint text"
+  },
+  "knowYourFood": "ನಿಮ್ಮ ಆಹಾರವನ್ನು ತಿಳಿಯಿರಿ",
+  "@knowYourFood": {
+    "description": "Know your food hint text"
+  }
+
+}
